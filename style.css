@@ -1,15 +1,14 @@
-*{box-sizing:border-box} :root{--bg:#0b0f14;--card:#121823;--ink:#e6f0ff;--muted:#a9bbd4;--accent:#7af0c9}
-html,body{height:100%;margin:0;background:radial-gradient(1200px 800px at 20% 10%, #0b0f14 0%, #0a0e13 60%, #05070b 100%); color:var(--ink); font: 16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Arial}
-.topbar{padding:18px 20px;border-bottom:1px solid #1e2430;background:linear-gradient(180deg,#0d141f,#0b0f14)}
-.topbar h1{margin:0;font-size:22px} .tag{margin:4px 0 0;color:var(--muted);font-size:13px}
+*{box-sizing:border-box}
+:root{--bg:#0b0f14;--card:#121823;--ink:#e6f0ff;--muted:#a9bbd4}
+html,body{height:100%;margin:0;background:#0b0f14;color:var(--ink);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Arial}
+.topbar{padding:16px 20px;border-bottom:1px solid #1e2430}
+.tag{color:var(--muted);font-size:13px;margin:4px 0 0}
 .container{max-width:900px;margin:18px auto;padding:0 16px}
-.chat{background:var(--card);border:1px solid #1e2430;border-radius:16px; padding:14px; height:60vh; overflow:auto; box-shadow:0 10px 30px rgba(0,0,0,.35)}
-.msg{display:flex; gap:10px; margin:10px 0}
-.msg .bubble{padding:10px 12px;border-radius:12px; max-width:78%}
-.msg.user .bubble{background:#243246} .msg.bot .bubble{background:#0e1420;border:1px solid #202b3d}
-small.hint{color:var(--muted)}
-.input-row{display:flex; gap:10px; margin-top:12px} .input{flex:1;padding:12px 14px;border-radius:12px;border:1px solid #203045;background:#0e1420;color:var(--ink)}
-.btn{padding:12px 14px;border-radius:12px;border:1px solid #203045;background:linear-gradient(135deg,#152233,#0e1622);color:var(--ink);cursor:pointer}
-.kb{margin-top:10px;color:var(--muted)} .footer{opacity:.7;text-align:center;margin:20px 0}
-code{background:#0d1420;padding:2px 6px;border-radius:6px}
-a{color:var(--accent)}
+.chat{background:#121823;border:1px solid #1e2430;border-radius:12px;padding:14px;height:60vh;overflow:auto}
+.msg{display:flex;gap:10px;margin:10px 0}
+.bubble{padding:10px 12px;border-radius:12px;max-width:78%}
+.msg.user .bubble{background:#243246}
+.msg.bot .bubble{background:#0e1420;border:1px solid #202b3d}
+.input-row{display:flex;gap:10px;margin-top:12px}
+.input{flex:1;padding:12px 14px;border-radius:12px;border:1px solid #203045;background:#0e1420;color:var(--ink)}
+.btn{padding:12px 14px;border-radius:12px;border:1px solid #203045;background:#141d2a;color:var(--ink);cursor:pointer}
