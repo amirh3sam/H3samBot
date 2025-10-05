@@ -29,7 +29,7 @@
     "q": "aperture shutter iso triangle explain",
     "a": "Aperture controls depth, shutter controls motion, ISO adds brightness/noise. For sharp portraits in low light: f/2\u2013f/2.8, 1/125s, Auto ISO."
   }
-  [
+  ,
   {
     "title": "Camera Settings for Portraits",
     "q": "best camera settings for portraits, portrait photos, blurry background, aperture for portraits",
@@ -49,7 +49,12 @@
     "title": "Fix Wi-Fi Not Working on PC",
     "q": "wifi not working windows, fix wifi connection, laptop no internet",
     "a": "Try restarting your network adapter: open Command Prompt and run `netsh winsock reset`, then restart your PC. Also ensure airplane mode is off."
-  }
-]
+  },
+{
+  "title": "Greeting",
+  "q": "hi, hello, hey, good morning, good evening, what's up, how are you, greetings",
+  "a": "Hey there 👋 I'm H3samBot — your Photo & Tech assistant! I can help you with photography tips, camera settings, IT tricks, or even tech troubleshooting. What would you like to learn today?"
+},
+
 
 ]
