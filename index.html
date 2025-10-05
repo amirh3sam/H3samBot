@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>H3samBot — Photo & IT Helper</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>🤖 H3samBot</h1>
+    <p class="tag">Your Photo & IT buddy — runs fully in the browser.</p>
+  </header>
+
+  <main class="container">
+    <section class="chat" id="chat"></section>
+
+    <form id="chatForm" class="input-row">
+      <input id="userInput" class="input" placeholder="Ask about photography or IT… (e.g. 'best shutter for sports?')" autocomplete="off" />
+      <button class="btn" type="submit">Send</button>
+    </form>
+
+    <details class="kb">
+      <summary>📚 Knowledge Base (click to view)</summary>
+      <p>Edit <code>data/knowledge.json</code> to teach the bot new things. Commit to GitHub and it will learn instantly.</p>
+    </details>
+  </main>
+
+  <footer class="footer">
+    <a href="README.html" target="_blank">README</a> · <a href="https://github.com" target="_blank">GitHub</a>
+  </footer>
+
+  <script src="bot.js"></script>
+</body>
+</html>

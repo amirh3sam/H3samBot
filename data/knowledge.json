@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Fast action / sports shutter",
+    "q": "best shutter for sports freeze motion football basketball",
+    "a": "Use 1/1000s as a safe starting point (1/2000s for very fast plays). Shoot Shutter Priority, Auto ISO, continuous AF (AI\u2011Servo/AF\u2011C)."
+  },
+  {
+    "title": "Portrait lighting basics",
+    "q": "portrait lighting soft light window reflector 45 degrees rembrandt",
+    "a": "Place a soft light 45\u00b0 to the subject and slightly above eyes. Use a reflector to fill. Aim f/2\u2013f/4 and ~1/125s; raise ISO before dropping shutter."
+  },
+  {
+    "title": "Golden hour tip",
+    "q": "golden hour best time outdoor photos color temperature warm",
+    "a": "Golden hour = first hour after sunrise, last hour before sunset. White balance 5200\u20136000K for natural look; lower for warmer vibes."
+  },
+  {
+    "title": "Windows high CPU",
+    "q": "windows high cpu usage fix task manager background apps startup",
+    "a": "Ctrl+Shift+Esc \u2192 sort by CPU. Disable heavy startup apps: Settings \u2192 Apps \u2192 Startup. Update drivers & Windows; scan for malware; Balanced power plan."
+  },
+  {
+    "title": "Linux disk space",
+    "q": "linux check disk usage which folders big du df clean apt",
+    "a": "Run: <code>sudo du -h --max-depth=1 / | sort -hr | head</code>. Quick overview: <code>df -h</code>. Clean caches: <code>sudo apt autoremove && sudo apt clean</code>."
+  },
+  {
+    "title": "Exposure triangle",
+    "q": "aperture shutter iso triangle explain",
+    "a": "Aperture controls depth, shutter controls motion, ISO adds brightness/noise. For sharp portraits in low light: f/2\u2013f/2.8, 1/125s, Auto ISO."
+  }
+]

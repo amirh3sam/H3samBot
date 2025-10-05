@@ -1,0 +1,26 @@
+# H3samBot — Photo & IT Helper (No server)
+
+A tiny, **static** chatbot that runs **entirely in the browser** (no API keys).  
+It finds answers from a small knowledge base using TF‑IDF + cosine similarity.
+
+## Run
+Just open `index.html` in a browser. Or host on GitHub Pages.
+
+## Teach the bot
+Edit `data/knowledge.json`. Each entry has:
+```json
+{
+  "title": "Short title",
+  "q": "keywords and phrases the user might ask",
+  "a": "HTML allowed answer"
+}
+```
+
+## Deploy to GitHub Pages
+1. Create repo `H3samBot`
+2. Upload files.
+3. Settings → Pages → Deploy from Branch → `main` → `/` (root).  
+Your bot will be live at `https://<you>.github.io/H3samBot/`.
+
+## Upgrade path (optional)
+- Swap the retrieval with a real LLM API later (OpenAI/Azure): call the API from `bot.js` and pass the best-matching KB chunks as context.
