@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>H3samBot — Photo & IT Helper</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <header class="topbar">
@@ -16,24 +16,13 @@
     <section class="chat" id="chat"></section>
 
     <form id="chatForm" class="input-row">
-      <input id="userInput" class="input" placeholder="Ask about photography or IT… (e.g. 'best shutter for sports?')" autocomplete="off" />
+      <input id="userInput" class="input" placeholder="Ask about photography or IT…" autocomplete="off"/>
       <button class="btn" type="submit">Send</button>
     </form>
 
-    <details class="kb">
-      <summary>📚 Knowledge Base (click to view)</summary>
-      <p>Edit <code>data/knowledge.json</code> to teach the bot new things. Commit to GitHub and it will learn instantly.</p>
-    </details>
+    <div id="status" style="margin-top:8px;color:#a9bbd4;font-size:12px"></div>
   </main>
 
-  <footer class="footer">
-    <a href="README.html" target="_blank">README</a> · <a href="https://github.com" target="_blank">GitHub</a>
-  </footer>
-
-<div id="status" style="margin-top:8px;color:#a9bbd4;font-size:12px"></div>
-
-<!-- IMPORTANT: bump the version number -->
-<script src="bot.js?v=999"></script>
-
+  <script src="bot.js?v=1001"></script>
 </body>
 </html>
