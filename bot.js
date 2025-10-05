@@ -1,11 +1,6 @@
 
 
-const greetings = [
-  "Hey there 👋 I’m H3samBot — your creative tech sidekick!",
-  "Yo! H3samBot here — ready to talk gear, code, and cool tricks!",
-  "Hello there 👋 Need help with your camera or your computer?"
-];
-return greetings[Math.floor(Math.random() * greetings.length)];
+
 
 // H3samBot — diagnostic build
 const chat  = document.getElementById('chat');
