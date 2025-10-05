@@ -65,36 +65,42 @@ function vecFromText(t, pre){
   }
   return v;
 }
-async function answer(q){
-  await ensureIndex();
-  const vq = vecFromText(q, pre);
-  let best = {i:-1, score:0};
-  pre.vecs.forEach((vd, i)=>{
-    const s = cosine(vq, vd);
-    if(s > best.score) best = {i, score:s};
-  });
-  if(best.i === -1 || best.score < 0.04){
-    return "I’m not sure yet. Try rephrasing, or teach me: edit <code>data/knowledge.json</code> with a new Q&A.";
+async function answer(q) {
+  await ensureReady();
+
+  // --- Greeting check FIRST ---
+  const greetingPattern = /^\s*(hi|hello|hey|good\s*(morning|evening)|greetings|yo|sup)\s*$/i;
+  if (greetingPattern.test(q)) {
+    return "Hey there 👋 I'm H3samBot — your Photo & Tech assistant! Ask me about photography tips, lighting setups, camera settings, or tech fixes for Windows and Linux.";
   }
+
+  // --- Build query vector ---
+  const vq = (function vecFromText(t) {
+    const toks = tokenize(t);
+    const m = new Map();
+    toks.forEach(w => m.set(w, (m.get(w) || 0) + 1));
+    const v = new Map();
+    for (const [w, f] of m) {
+      const idf = pre.idf.get(w) || 0;
+      v.set(w, f * idf);
+    }
+    return v;
+  })(q);
+
+  // --- Find best match ---
+  let best = { i: -1, score: 0 };
+  pre.vecs.forEach((vd, i) => {
+    const s = cosine(vq, vd);
+    if (s > best.score) best = { i, score: s };
+  });
+
+  // --- Lower match threshold ---
+  if (best.i === -1 || best.score < 0.01) {
+    return "I’m not sure yet 🤔 Try asking me something like 'best camera settings for portraits' or 'how to fix Wi-Fi on Windows'.";
+  }
+
   const item = KB[best.i];
   return `<b>${item.title || 'Tip'}</b><br>${item.a}`;
 }
-form.addEventListener('submit', async (e)=>{
-  e.preventDefault();
-  const q = input.value.trim();
-  if(!q) return;
-  addMsg('user', q);
-  input.value='';
-  const thinking = document.createElement('div');
-  thinking.className = 'msg bot'; thinking.innerHTML = '<div class="bubble">…</div>';
-  chat.appendChild(thinking); chat.scrollTop = chat.scrollHeight;
-  try{
-    const a = await answer(q);
-    thinking.remove();
-    addMsg('bot', a);
-  }catch(err){
-    thinking.remove();
-    addMsg('bot', 'Error: ' + (err && err.message ? err.message : err));
-  }
-});
+
 loadKB();
