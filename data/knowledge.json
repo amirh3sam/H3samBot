@@ -1,82 +1,102 @@
 [
   {
-    "title": "Greeting",
-    "q": "hi hello hey good morning good evening whats up how are you greetings",
-    "a": "Hey there 👋 I'm H3samBot — your Photo & Tech assistant! I can help you with photography tips, camera settings, lighting setups, or IT and Windows fixes. What do you want to learn today?"
+    "title": "How a Mobile Photography Darkroom Empowers Vulnerable Children",
+    "q": "How a Mobile Photography Darkroom Empowers Vulnerable Children PetaPixel",
+    "a": "<b>How a Mobile Photography Darkroom Empowers Vulnerable Children</b><br>The Sirkhane Darkroom a mobile photography darkroom, brings education, passion, and most importantly, hope, to overlooked communities in Turkey where children face limited access to education and safety, especially in t…<br><a href=\"https://petapixel.com/2025/10/05/how-a-mobile-photography-darkroom-empowers-vulnerable-children/\" target=\"_blank\">Read more</a>"
   },
   {
-    "title": "Fast action / sports shutter",
-    "q": "best shutter for sports freeze motion football basketball",
-    "a": "Use 1/1000s as a safe starting point (1/2000s for very fast plays). Shoot in Shutter Priority mode, enable Auto ISO, and set continuous AF (AI-Servo or AF-C)."
+    "title": "Save Up to 30% on SmallRig Gear This Week on Amazon",
+    "q": "Save Up to 30% on SmallRig Gear This Week on Amazon PetaPixel",
+    "a": "<b>Save Up to 30% on SmallRig Gear This Week on Amazon</b><br>To celebrate the arrival of autumn, SmallRig is offering up to 30% off over 400 products on Amazon from October 7 to 8. [Read More]<br><a href=\"https://petapixel.com/2025/10/05/save-up-to-30-on-smallrig-gear-this-week-on-amazon/\" target=\"_blank\">Read more</a>"
   },
   {
-    "title": "Portrait lighting basics",
-    "q": "portrait lighting soft light window reflector 45 degrees rembrandt",
-    "a": "Place a soft light 45° to your subject and slightly above eye level. Use a reflector to fill shadows. For portraits, try f/2–f/4 around 1/125s and raise ISO before lowering shutter speed."
+    "title": "Use Light More Creatively: Exposure Is More Than Just Correcting for Light",
+    "q": "Use Light More Creatively: Exposure Is More Than Just Correcting for Light PetaPixel",
+    "a": "<b>Use Light More Creatively: Exposure Is More Than Just Correcting for Light</b><br>There’s much more to exposure than just correcting for light. It’s one of the most powerful tools you can use creatively. [Read More]<br><a href=\"https://petapixel.com/2025/10/04/use-light-more-creatively-exposure-is-more-than-just-correcting-for-light/\" target=\"_blank\">Read more</a>"
   },
   {
-    "title": "Golden hour tip",
-    "q": "golden hour best time outdoor photos color temperature warm",
-    "a": "Golden hour is the first hour after sunrise and the last hour before sunset. Set white balance around 5200–6000K for natural tones, or lower for warmer colors."
+    "title": "Camera Makers Need to Lean Into Their Brand Colors Again",
+    "q": "Camera Makers Need to Lean Into Their Brand Colors Again PetaPixel",
+    "a": "<b>Camera Makers Need to Lean Into Their Brand Colors Again</b><br>When Nikon added the gold ring to the lens mount of its 28-135mm f/4 PZ earlier this year, I was ecstatic. Finally, Nikon was leaning into its brand color. I was saddened to learn it would only do this on select product…<br><a href=\"https://petapixel.com/2025/10/03/camera-makers-need-to-lean-into-their-brand-colors-again/\" target=\"_blank\">Read more</a>"
   },
   {
-    "title": "Windows high CPU",
-    "q": "windows high cpu usage fix task manager background apps startup",
-    "a": "Press Ctrl+Shift+Esc → sort by CPU to find the culprit. Disable heavy startup apps under Settings → Apps → Startup. Update drivers, scan for malware, and use the Balanced power plan."
+    "title": "20 Award-Winning Photos From 1839 Awards’ Photographer of the Year",
+    "q": "20 Award-Winning Photos From 1839 Awards’ Photographer of the Year PetaPixel",
+    "a": "<b>20 Award-Winning Photos From 1839 Awards’ Photographer of the Year</b><br>1839 Awards announced the winners of its International Photographer of the Year Contest. The winning photographers in the Professional and Non-Professional categories demonstrate excellent artistic and technical achieve…<br><a href=\"https://petapixel.com/2025/10/03/20-award-winning-photos-from-1839-awards-photographer-of-the-year/\" target=\"_blank\">Read more</a>"
   },
   {
-    "title": "Linux disk space",
-    "q": "linux check disk usage which folders big du df clean apt",
-    "a": "Run: <code>sudo du -h --max-depth=1 / | sort -hr | head</code>. For an overview: <code>df -h</code>. Clean caches: <code>sudo apt autoremove && sudo apt clean</code>."
+    "title": "Can you capture the magic of fall? Get ready for our \"Fall Follies\" photo challenge",
+    "q": "Can you capture the magic of fall? Get ready for our \"Fall Follies\" photo challenge Articles: Digital Photography Review (dpreview.com)",
+    "a": "<b>Can you capture the magic of fall? Get ready for our \"Fall Follies\" photo challenge</b><br>Fall colors are on full display in Canada's Northwest Territories. I captured this photo along the Ingraham Trail several km outside Yellowknife, NTW. Although the primary purpose of my trip was to photograph the aurora…<br><a href=\"https://www.dpreview.com/articles/9275549403/october-2025-editors-photo-challenge-announced\" target=\"_blank\">Read more</a>"
   },
   {
-    "title": "Exposure triangle",
-    "q": "aperture shutter iso triangle explain exposure settings photography basics",
-    "a": "Aperture controls depth of field, shutter speed freezes or blurs motion, and ISO affects brightness and noise. For sharp low-light portraits: f/2–f/2.8, 1/125s, Auto ISO."
+    "title": "Inside Canon's HQ: we found out why Canon wants to build the Porsche 911 of photography",
+    "q": "Inside Canon's HQ: we found out why Canon wants to build the Porsche 911 of photography Articles: Digital Photography Review (dpreview.com)",
+    "a": "<b>Inside Canon's HQ: we found out why Canon wants to build the Porsche 911 of photography</b><br>Go Tokura, Executive Vice President, Head of Imaging Group, Chief Executive of Imaging Business Operations Photo: Richard Butler Full disclosure: I've just returned from a trip to Japan paid for by Canon. Our usual poli…<br><a href=\"https://www.dpreview.com/articles/5354325480/a-visit-to-canon-in-japan-and-why-it-wants-to-be-the-porsche-911-of-photography\" target=\"_blank\">Read more</a>"
   },
   {
-    "title": "Camera settings for portraits",
-    "q": "best camera settings for portraits portrait photos blurry background aperture for portraits",
-    "a": "Use a wide aperture (f/1.8–f/2.8) for nice background blur, low ISO for sharpness, and soft natural light. Keep shutter speed around 1/125s to avoid motion blur."
+    "title": "Pastel landscapes and monochrome portraits shine at the Film Photography Awards",
+    "q": "Pastel landscapes and monochrome portraits shine at the Film Photography Awards Articles: Digital Photography Review (dpreview.com)",
+    "a": "<b>Pastel landscapes and monochrome portraits shine at the Film Photography Awards</b><br>2025 Analog Sparks International Film Photography Awards This Film Friday, we are highlighting the Analog Sparks 2025 International Film Photography Awards, showcasing diverse analog work from around the globe. This mar…<br><a href=\"https://www.dpreview.com/articles/4903665536/pastel-landscapes-and-monochrome-portraits-shine-at-the-film-photography-awards\" target=\"_blank\">Read more</a>"
   },
   {
-    "title": "Difference between SSD and HDD",
-    "q": "ssd vs hdd difference between ssd and hdd faster storage drive",
-    "a": "SSDs are much faster and more reliable than HDDs since they use flash memory (no moving parts). HDDs are cheaper but slower, louder, and less durable."
+    "title": "What is a histogram, and how do you use it?",
+    "q": "What is a histogram, and how do you use it? Articles: Digital Photography Review (dpreview.com)",
+    "a": "<b>What is a histogram, and how do you use it?</b><br>Photo: Mitchell Clark No matter what type(s) of photography you like to pursue, mastering exposure is key to creating successful images. While it can be tempting to use your camera's screen to judge exposure, that displ…<br><a href=\"https://www.dpreview.com/learn/6774050105/what-is-a-histogram-and-how-do-you-use-it\" target=\"_blank\">Read more</a>"
   },
   {
-    "title": "Lighting tips for indoor photography",
-    "q": "indoor lighting tips photo lighting how to take good photos inside",
-    "a": "Use soft, diffused light — bounce your flash off the ceiling or use a ring light or softbox. Avoid harsh direct light to reduce shadows and reflections."
+    "title": "Sony 100mm F2.8 Macro GM sample gallery: now with teleconverter shots",
+    "q": "Sony 100mm F2.8 Macro GM sample gallery: now with teleconverter shots Articles: Digital Photography Review (dpreview.com)",
+    "a": "<b>Sony 100mm F2.8 Macro GM sample gallery: now with teleconverter shots</b><br>When you use DPReview links to buy products, the site may earn a commission. Sony a7R V | Sony FE 100mm F2.8 Macro GM | F4| 1/100 sec | ISO 1600 Processed with Capture One Earlier this week, Sony announced the FE 100mm …<br><a href=\"https://www.dpreview.com/samples/7351256194/sony-100mm-f2p8-macro-gm-sample-gallery\" target=\"_blank\">Read more</a>"
   },
   {
-    "title": "Fix Wi-Fi not working on PC",
-    "q": "wifi not working windows fix wifi connection laptop no internet network issue",
-    "a": "Restart the adapter: open Command Prompt and run <code>netsh winsock reset</code>, then reboot. Also ensure Airplane Mode is off and drivers are up to date."
+    "title": " Nobel Laureate backs Cambridge-based crowdfunding effort to digitize 100,000 hours of recordings from some of the brightest minds in human history ",
+    "q": " Nobel Laureate backs Cambridge-based crowdfunding effort to digitize 100,000 hours of recordings from some of the brightest minds in human history   Latest from TechRadar ",
+    "a": "<b> Nobel Laureate backs Cambridge-based crowdfunding effort to digitize 100,000 hours of recordings from some of the brightest minds in human history </b><br>A Cambridge-led project seeks funds to digitize and restore 100,000 hours of historic scientific recordings featuring leading global thinkers.<br><a href=\"https://www.techradar.com/pro/security/nobel-laureate-backs-cambridge-based-crowdfunding-effort-to-digitize-100-000-hours-of-recordings-from-some-of-the-brightest-minds-humanity-has-ever-conceived\" target=\"_blank\">Read more</a>"
   },
   {
-    "title": "Studio lighting setup",
-    "q": "studio lighting setup softbox key light fill light background light photography",
-    "a": "Use a 3-point setup: Key light (main light at 45°), Fill light (softer on the opposite side), and Back/Background light for separation. Adjust intensity for contrast."
+    "title": " Microsoft's new Photos app update is so good that it could well become my favorite photo organizing tool - but you will need a Copilot+ PC to experience it ",
+    "q": " Microsoft's new Photos app update is so good that it could well become my favorite photo organizing tool - but you will need a Copilot+ PC to experience it   Latest from TechRadar ",
+    "a": "<b> Microsoft's new Photos app update is so good that it could well become my favorite photo organizing tool - but you will need a Copilot+ PC to experience it </b><br>Microsoft’s Photos app adds AI-powered sorting and super resolution features, but they only work on Copilot+ PCs with NPU hardware.<br><a href=\"https://www.techradar.com/pro/microsofts-new-photos-app-update-is-so-good-that-it-could-well-become-my-favorite-photo-organizing-tool-but-you-will-need-a-copilot-pc-to-experience-it\" target=\"_blank\">Read more</a>"
   },
   {
-    "title": "Windows screenshot shortcut",
-    "q": "how to take screenshot windows snip shortcut print screen capture",
-    "a": "Press Windows+Shift+S to open Snip & Sketch. Drag to select the area, and it copies instantly. Paste it into Paint, Word, or anywhere you need."
+    "title": " Drop what you're doing – LG's C5 OLED TV crashes to its lowest price ever ahead of Prime Day ",
+    "q": " Drop what you're doing – LG's C5 OLED TV crashes to its lowest price ever ahead of Prime Day   Latest from TechRadar ",
+    "a": "<b> Drop what you're doing – LG's C5 OLED TV crashes to its lowest price ever ahead of Prime Day </b><br>Thanks to early Prime Day deals, you can get LG's 65-inch C5 OLED TV on sale for its lowest price yet, thanks to a massive $1,250 discount.<br><a href=\"https://www.techradar.com/seasonal-sales/drop-what-youre-doing-lgs-c5-oled-tv-crashes-to-its-lowest-price-ever-ahead-of-prime-day\" target=\"_blank\">Read more</a>"
   },
   {
-    "title": "Check your Windows version",
-    "q": "windows version check command system info os version details",
-    "a": "Open Command Prompt and type <code>systeminfo | findstr /B /C:\"OS Name\" /C:\"OS Version\"</code>. It shows your exact build and edition."
+    "title": " I've covered Prime Day for 8 years - here are 25 Amazon device deals that are actually worth buying ",
+    "q": " I've covered Prime Day for 8 years - here are 25 Amazon device deals that are actually worth buying   Latest from TechRadar ",
+    "a": "<b> I've covered Prime Day for 8 years - here are 25 Amazon device deals that are actually worth buying </b><br>The best discounts at Amazon's October Prime Day sale are on its best-selling devices, and as a shopping expert, I've rounded up 25 deals that are actually worth buying.<br><a href=\"https://www.techradar.com/seasonal-sales/ive-covered-prime-day-for-8-years-here-are-25-amazon-device-deals-that-are-actually-worth-buying\" target=\"_blank\">Read more</a>"
   },
   {
-    "title": "Best lens for portraits",
-    "q": "best lens for portraits photography 50mm 85mm shallow depth",
-    "a": "A 50mm f/1.8 or 85mm f/1.8 lens is ideal for portraits — both produce natural perspective and strong background separation. Use wide apertures for smooth bokeh."
+    "title": " I was blown away by this robot vacuum's mopping performance, but it's let down by frustrating software quirks  ",
+    "q": " I was blown away by this robot vacuum's mopping performance, but it's let down by frustrating software quirks    Latest from TechRadar ",
+    "a": "<b> I was blown away by this robot vacuum's mopping performance, but it's let down by frustrating software quirks  </b><br>The Narwal Flow rolls right over the competition when it comes to mopping, but doesn't always do as it's told.<br><a href=\"https://www.techradar.com/home/robot-vacuums/narwal-flow-review\" target=\"_blank\">Read more</a>"
   },
   {
-    "title": "Focus modes explained",
-    "q": "camera focus mode af c af s ai servo manual focus photography settings",
-    "a": "AF-S (Single) locks focus once — great for still subjects. AF-C (Continuous) tracks movement — perfect for action. Manual focus gives full control for static setups."
+    "title": "Jane Goodall’s death triggered the premiere of Netflix’s new show",
+    "q": "Jane Goodall’s death triggered the premiere of Netflix’s new show The Verge",
+    "a": "<b>Jane Goodall’s death triggered the premiere of Netflix’s new show</b><br>For the last several years Netflix has been quietly banking episodes of a new show called Famous Last Words, interviews with famous people entering their twilight years. The catch is that episodes will only air after th…<br><a href=\"https://www.theverge.com/news/792477/jane-goodall-netflix-famous-last-words\" target=\"_blank\">Read more</a>"
+  },
+  {
+    "title": "If you can get past the terrible logo, Audacity 4 looks pretty great",
+    "q": "If you can get past the terrible logo, Audacity 4 looks pretty great The Verge",
+    "a": "<b>If you can get past the terrible logo, Audacity 4 looks pretty great</b><br>The new Audacity logo Rebrands rarely get much love. That backlash can be especially strong if you’re giving a facelift to a decades-old piece of software beloved by nerds around the globe. So, it was no surprise that w…<br><a href=\"https://www.theverge.com/news/792368/if-you-can-get-past-the-terrible-logo-audacity-4-looks-pretty-great\" target=\"_blank\">Read more</a>"
+  },
+  {
+    "title": "Roland is finally honoring its legacy instead of just cashing in on it",
+    "q": "Roland is finally honoring its legacy instead of just cashing in on it The Verge",
+    "a": "<b>Roland is finally honoring its legacy instead of just cashing in on it</b><br>The Roland TR-1000 rhythm generator. If the only thing Roland ever released was the TR-808, the company would still deserve a place in the music gear hall of fame. The 808 is arguably the most important instrument since…<br><a href=\"https://www.theverge.com/entertainment/792209/roland-is-finally-honoring-its-legacy-instead-of-just-cashing-in-tr-1000\" target=\"_blank\">Read more</a>"
+  },
+  {
+    "title": "I’ve tested the latest Switch 2 controllers, and this one is the best",
+    "q": "I’ve tested the latest Switch 2 controllers, and this one is the best The Verge",
+    "a": "<b>I’ve tested the latest Switch 2 controllers, and this one is the best</b><br>Editor’s note: Amazon’s fall Prime Day event kicks off on October 7th; however, if you want to shop ahead of the two-day sale, we’ve rounded up the best early Prime Day deals you can already get. If you choose to get an…<br><a href=\"https://www.theverge.com/tech/791574/best-switch-2-controllers\" target=\"_blank\">Read more</a>"
+  },
+  {
+    "title": "The developers behind a hit sausage-dueling game hope Steam launch will take it furter",
+    "q": "The developers behind a hit sausage-dueling game hope Steam launch will take it furter The Verge",
+    "a": "<b>The developers behind a hit sausage-dueling game hope Steam launch will take it furter</b><br>Life is a series of battles, and I just lost my last one against four gyoza on a skewer. It was an unexpected blow, because honestly, who could have expected me - a springy, respectably proportioned hot dog - to lose ag…<br><a href=\"https://www.theverge.com/entertainment/791353/sausage-legend-steam-launch-interview\" target=\"_blank\">Read more</a>"
   }
 ]
