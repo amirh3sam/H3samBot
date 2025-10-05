@@ -29,4 +29,27 @@
     "q": "aperture shutter iso triangle explain",
     "a": "Aperture controls depth, shutter controls motion, ISO adds brightness/noise. For sharp portraits in low light: f/2\u2013f/2.8, 1/125s, Auto ISO."
   }
+  [
+  {
+    "title": "Camera Settings for Portraits",
+    "q": "best camera settings for portraits, portrait photos, blurry background, aperture for portraits",
+    "a": "For portraits, use a wide aperture (like f/1.8–f/2.8) to blur the background. Keep ISO low for sharpness, and use natural light when possible."
+  },
+  {
+    "title": "Difference Between SSD and HDD",
+    "q": "ssd vs hdd, difference between ssd and hdd, faster storage drive",
+    "a": "SSD drives are much faster and more reliable than HDDs since they use flash memory instead of spinning disks. HDDs are cheaper but slower and noisier."
+  },
+  {
+    "title": "Lighting Tips for Indoor Photography",
+    "q": "indoor lighting tips, photo lighting, how to take good photos inside",
+    "a": "Use soft, diffused light — bounce your flash off the ceiling or use a ring light. Avoid harsh direct lighting to reduce shadows."
+  },
+  {
+    "title": "Fix Wi-Fi Not Working on PC",
+    "q": "wifi not working windows, fix wifi connection, laptop no internet",
+    "a": "Try restarting your network adapter: open Command Prompt and run `netsh winsock reset`, then restart your PC. Also ensure airplane mode is off."
+  }
+]
+
 ]
