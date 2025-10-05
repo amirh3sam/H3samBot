@@ -14,6 +14,14 @@ function addMsg(role, html){
 addMsg('bot', `<b>H3samBot</b> ready. Ask me about camera settings, lighting, lenses, networking, Windows/Linux tips, and more.<br>
 <small class="hint">Try: “best shutter for sports” or “fix high CPU on Windows”.</small>`);
 
+
+const greetings = [
+  "Hey there 👋 I’m H3samBot — your creative tech sidekick!",
+  "Yo! H3samBot here — ready to talk gear, code, and cool tricks!",
+  "Hello there 👋 Need help with your camera or your computer?"
+];
+return greetings[Math.floor(Math.random() * greetings.length)];
+
 // ---------- utils ----------
 function tokenize(t){ return t.toLowerCase().replace(/[^a-z0-9\s]/g,' ').split(/\s+/).filter(Boolean); }
 function tfidfVectors(docs){
