@@ -3,13 +3,13 @@ import fs from "fs/promises";
 import Parser from "rss-parser";
 
 const parser = new Parser();
+// scripts/fetch.js
 const SOURCES = [
-  // Photography feeds
   "https://petapixel.com/feed/",
   "https://www.dpreview.com/feeds/news.xml",
-  // Tech / IT feeds
-  "https://devblogs.microsoft.com/windowsserver/feed/",
-  "https://linuxfoundation.org/feed/"
+  "https://www.techradar.com/rss",
+  "https://www.theverge.com/rss/index.xml",
+  "https://feed.lensrentals.com/blog/feed/"
 ];
 
 function short(txt, max = 220) {
