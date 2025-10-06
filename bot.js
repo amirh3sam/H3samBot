@@ -50,58 +50,58 @@ async function ensureReady(){ if(!pre) await loadKBAndIndex(); }
 async function answer(q) {
   await ensureReady();
 
-  // Greeting
+  // --- Greeting ---
   if (/^\s*(hi|hello|hey|yo|sup|greetings|good\s*(morning|evening))\s*$/i.test(q)) {
-    return "Hey there 👋 I'm H3samBot — your Photo & Tech assistant! Ask me about cameras/lenses/lighting, or Windows/Linux fixes and tech news.";
+    return "Hey there 👋 I'm H3samBot — your Photo & Tech assistant! Ask me about cameras, lighting, editing, or tech fixes for Windows and Linux.";
   }
 
-  if (!pre) return "I couldn’t load my knowledge base. Try again in a moment.";
+  if (!pre) return "I couldn’t load my knowledge base yet — please refresh.";
 
-  // --- Topic routing ---
+  // --- Detect topic ---
   const qLower = q.toLowerCase();
-  let topic = null;
-  if (/(camera|lens|photo|photography|aperture|shutter|bokeh|flash|studio)/.test(qLower)) topic = "photo";
-  if (/(windows|linux|mac|apple|microsoft|driver|update|wifi|network|security)/.test(qLower)) topic = "it";
+  const isPhoto = /(camera|lens|photo|photography|aperture|shutter|bokeh|flash|studio|exposure|lighting)/.test(qLower);
+  const isTech = /(windows|linux|mac|apple|microsoft|driver|update|wifi|network|security|pc|software|hardware)/.test(qLower);
 
-  // Indices of docs to evaluate
+  // --- Reject irrelevant questions ---
+  if (!isPhoto && !isTech) {
+    return "🤖 Sorry, I can only help with photography 📸 and IT/tech 💻 questions. Try asking me something like:<br>– 'Best settings for portraits'<br>– 'Fix Wi-Fi not working on Windows'<br>– 'What’s a good camera for low light?'.";
+  }
+
+  // --- Topic filter ---
+  const topic = isPhoto ? "photo" : "it";
   const idxs = [];
   KB.forEach((item, i) => {
-    if (!topic || item.topic === topic) idxs.push(i);
+    if (!item.topic || item.topic === topic) idxs.push(i);
   });
 
-  // Build query vector
+  // --- Build query vector ---
   const toks = tokenize(q);
   const m = new Map();
   toks.forEach(w => m.set(w, (m.get(w) || 0) + 1));
   const vq = new Map();
   for (const [w, f] of m) vq.set(w, f * (pre.idf.get(w) || 0));
 
-  // Score a subset
+  // --- Score ---
   const scored = idxs.map(i => {
     const s = cosine(vq, pre.vecs[i]);
     return { i, s };
   }).sort((a, b) => b.s - a.s);
 
-  // take top 3 distinct results with a sensible threshold
-  const TOPK = 3;
-  const MIN = 0.02;
-  const picks = scored.filter(x => x.s >= MIN).slice(0, TOPK);
-
+  const picks = scored.filter(x => x.s >= 0.02).slice(0, 3);
   if (picks.length === 0) {
-    return "I’m not sure yet 🤔 Try being more specific (e.g., “best mirrorless camera 2025” or “fix Wi-Fi on Windows 11”).";
+    return "Hmm 🤔 I couldn’t find anything for that. Try being more specific — like 'best lens for portraits' or 'how to fix high CPU on Windows'.";
   }
 
-  // Render cards
+  // --- Render cards ---
   const cards = picks.map(p => {
     const it = KB[p.i];
     const date = it.date ? `<br><small>${new Date(it.date).toDateString()}</small>` : "";
-    return `<div class="card">
-      <b>${it.title || "Tip"}</b>${date}<br>${it.a}
-    </div>`;
+    return `<div class="card"><b>${it.title || "Tip"}</b>${date}<br>${it.a}</div>`;
   });
 
   return cards.join("");
 }
+
 
 // boot
 loadKBAndIndex();
