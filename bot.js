@@ -77,14 +77,45 @@ async function answer(q){
   if(!pre){ return "I couldn’t load my knowledge base yet — please refresh."; }
 
   // topic gate (only photo/tech)
-  const ql = q.toLowerCase();
-  const isPhoto = /(camera|lens|photo|photography|aperture|shutter|bokeh|flash|studio|exposure|lighting)/.test(ql);
-  const isTech  = /(windows|linux|mac|apple|microsoft|driver|update|wifi|network|security|pc|software|hardware)/.test(ql);
-  if(!isPhoto && !isTech){
-    return "🤖 Sorry, I only help with photography 📸 and IT/tech 💻 questions.\nTry: “best settings for portraits” or “fix Wi-Fi on Windows”.";
-  }
+// topic gate (only photo/tech)
+const ql = q.toLowerCase();
 
-  const topic = isPhoto ? "photo" : "it";
+// broader keyword sets
+const photoKW = /(camera|lens|photo|photography|aperture|shutter|bokeh|flash|studio|exposure|lighting|portrait|landscape|iso|raw|mirrorless|dslr)/;
+const techKW  = /(tech|technology|it\b|computer|pc|software|hardware|windows|linux|mac|apple|microsoft|driver|update|wifi|network|security|gpu|cpu|browser|android|iphone|ios)/;
+
+// detect topic
+const isPhoto = photoKW.test(ql);
+const isTech  = techKW.test(ql);
+
+// generic “news” intent
+const wantsNews = /(news|latest|new|updates?)\b/.test(ql);
+
+let topic;  // <-- declare once
+
+if (!isPhoto && !isTech) {
+  if (wantsNews) {
+    topic = "it"; // default news to tech if ambiguous
+  } else {
+    return "🤖 Sorry, I only help with photography 📸 and IT/tech 💻 questions. Try: “best settings for portraits” or “fix Wi-Fi on Windows”.";
+  }
+} else {
+  topic = isPhoto ? "photo" : "it";
+
+  // If the user specifically asked for news, return the newest items now
+  if (wantsNews) {
+    const items = KB.filter(it => !it.topic || it.topic === topic);
+    items.sort((a,b) => new Date(b.date || 0) - new Date(a.date || 0));
+    const picks = items.slice(0, 3);
+    if (picks.length === 0) return "No recent updates yet. Try again later!";
+    return picks.map(it => {
+      const date = it.date ? `<br><small>${new Date(it.date).toDateString()}</small>` : "";
+      return `<div class="card"><b>${it.title || 'Update'}</b>${date}<br>${it.a}</div>`;
+    }).join("");
+  }
+}
+
+
   const idxs = [];
   KB.forEach((item,i)=>{ if(!item.topic || item.topic === topic) idxs.push(i); });
 
