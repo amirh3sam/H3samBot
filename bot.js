@@ -76,43 +76,39 @@ async function answer(q){
 
   if(!pre){ return "I couldn’t load my knowledge base yet — please refresh."; }
 
-  // topic gate (only photo/tech)
 // topic gate (only photo/tech)
+// --- Topic detection (more flexible) ---
 const ql = q.toLowerCase();
 
-// broader keyword sets
-const photoKW = /(camera|lens|photo|photography|aperture|shutter|bokeh|flash|studio|exposure|lighting|portrait|landscape|iso|raw|mirrorless|dslr)/;
-const techKW  = /(tech|technology|it\b|computer|pc|software|hardware|windows|linux|mac|apple|microsoft|driver|update|wifi|network|security|gpu|cpu|browser|android|iphone|ios)/;
+// Expanded keyword lists
+const photoKW = /(camera|lens|photo|photography|aperture|shutter|bokeh|flash|studio|exposure|lighting|portrait|landscape|iso|raw|mirrorless|dslr)/i;
+const techKW  = /(tech|technology|\bit\b|computer|pc|software|hardware|windows|linux|mac|apple|microsoft|driver|update|wifi|network|security|gpu|cpu|browser|android|iphone|ios|server|system|it support)/i;
 
-// detect topic
+// Detect intent
 const isPhoto = photoKW.test(ql);
 const isTech  = techKW.test(ql);
+const wantsNews = /(news|latest|new|updates?|trending|recent)\b/.test(ql);
 
-// generic “news” intent
-const wantsNews = /(news|latest|new|updates?)\b/.test(ql);
+let topic = null;
 
-let topic;  // <-- declare once
+// If user mentions both “it” and “news”, handle gracefully
+if (isPhoto) topic = "photo";
+else if (isTech || /\bit\b/.test(ql)) topic = "it";
+else if (wantsNews) topic = "it"; // default news → tech
+else {
+  return "🤖 Sorry, I only help with photography 📸 and IT/tech 💻 questions. Try: “best settings for portraits” or “fix Wi-Fi on Windows”.";
+}
 
-if (!isPhoto && !isTech) {
-  if (wantsNews) {
-    topic = "it"; // default news to tech if ambiguous
-  } else {
-    return "🤖 Sorry, I only help with photography 📸 and IT/tech 💻 questions. Try: “best settings for portraits” or “fix Wi-Fi on Windows”.";
-  }
-} else {
-  topic = isPhoto ? "photo" : "it";
-
-  // If the user specifically asked for news, return the newest items now
-  if (wantsNews) {
-    const items = KB.filter(it => !it.topic || it.topic === topic);
-    items.sort((a,b) => new Date(b.date || 0) - new Date(a.date || 0));
-    const picks = items.slice(0, 3);
-    if (picks.length === 0) return "No recent updates yet. Try again later!";
-    return picks.map(it => {
-      const date = it.date ? `<br><small>${new Date(it.date).toDateString()}</small>` : "";
-      return `<div class="card"><b>${it.title || 'Update'}</b>${date}<br>${it.a}</div>`;
-    }).join("");
-  }
+// --- “News” shortcut: show latest 3 ---
+if (wantsNews) {
+  const items = KB.filter(it => !it.topic || it.topic === topic);
+  items.sort((a,b) => new Date(b.date || 0) - new Date(a.date || 0));
+  const picks = items.slice(0, 3);
+  if (picks.length === 0) return "No recent updates yet — check back later!";
+  return picks.map(it => {
+    const date = it.date ? `<br><small>${new Date(it.date).toDateString()}</small>` : "";
+    return `<div class='card'><b>${it.title || 'Update'}</b>${date}<br>${it.a}</div>`;
+  }).join("");
 }
 
 
