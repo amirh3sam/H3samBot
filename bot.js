@@ -47,38 +47,61 @@ async function loadKBAndIndex(){
 async function ensureReady(){ if(!pre) await loadKBAndIndex(); }
 
 // ----- QA -----
-async function answer(q){
+async function answer(q) {
   await ensureReady();
 
-  // Greeting even if KB missing
-  if(/^\s*(hi|hello|hey|yo|sup|greetings|good\s*(morning|evening))\s*$/i.test(q)){
-    return "Hey there 👋 I'm H3samBot — your Photo & Tech assistant! Ask me about photography tips, lighting, camera settings, or Windows/Linux fixes.";
+  // Greeting
+  if (/^\s*(hi|hello|hey|yo|sup|greetings|good\s*(morning|evening))\s*$/i.test(q)) {
+    return "Hey there 👋 I'm H3samBot — your Photo & Tech assistant! Ask me about cameras/lenses/lighting, or Windows/Linux fixes and tech news.";
   }
 
-  if(!pre){ // KB/index not ready
-    return "I couldn’t load my knowledge base. Check that <code>data/knowledge.json</code> exists and is valid JSON.";
+  if (!pre) return "I couldn’t load my knowledge base. Try again in a moment.";
+
+  // --- Topic routing ---
+  const qLower = q.toLowerCase();
+  let topic = null;
+  if (/(camera|lens|photo|photography|aperture|shutter|bokeh|flash|studio)/.test(qLower)) topic = "photo";
+  if (/(windows|linux|mac|apple|microsoft|driver|update|wifi|network|security)/.test(qLower)) topic = "it";
+
+  // Indices of docs to evaluate
+  const idxs = [];
+  KB.forEach((item, i) => {
+    if (!topic || item.topic === topic) idxs.push(i);
+  });
+
+  // Build query vector
+  const toks = tokenize(q);
+  const m = new Map();
+  toks.forEach(w => m.set(w, (m.get(w) || 0) + 1));
+  const vq = new Map();
+  for (const [w, f] of m) vq.set(w, f * (pre.idf.get(w) || 0));
+
+  // Score a subset
+  const scored = idxs.map(i => {
+    const s = cosine(vq, pre.vecs[i]);
+    return { i, s };
+  }).sort((a, b) => b.s - a.s);
+
+  // take top 3 distinct results with a sensible threshold
+  const TOPK = 3;
+  const MIN = 0.02;
+  const picks = scored.filter(x => x.s >= MIN).slice(0, TOPK);
+
+  if (picks.length === 0) {
+    return "I’m not sure yet 🤔 Try being more specific (e.g., “best mirrorless camera 2025” or “fix Wi-Fi on Windows 11”).";
   }
 
-  const toks = tokenize(q); const m=new Map(); toks.forEach(w=>m.set(w,(m.get(w)||0)+1));
-  const vq = new Map(); for(const [w,f] of m) vq.set(w, f*(pre.idf.get(w)||0));
-  let best={i:-1,score:0}; pre.vecs.forEach((vd,i)=>{ const s=cosine(vq,vd); if(s>best.score) best={i,score:s}; });
-  if(best.i===-1 || best.score<0.01){
-    return "I’m not sure yet 🤔 Try “best lens for portraits”, “wifi not working windows”, or teach me by editing <code>data/knowledge.json</code>.";
-  }
-  const item = KB[best.i];
-  return `<b>${item.title||'Tip'}</b><br>${item.a}`;
+  // Render cards
+  const cards = picks.map(p => {
+    const it = KB[p.i];
+    const date = it.date ? `<br><small>${new Date(it.date).toDateString()}</small>` : "";
+    return `<div class="card">
+      <b>${it.title || "Tip"}</b>${date}<br>${it.a}
+    </div>`;
+  });
+
+  return cards.join("");
 }
-
-// ----- form -----
-form.addEventListener('submit', async e=>{
-  e.preventDefault();
-  const q=(input.value||"").trim(); if(!q) return;
-  addMsg('user', q); input.value='';
-  const thinking=document.createElement('div'); thinking.className='msg bot'; thinking.innerHTML='<div class="bubble">…</div>';
-  chat.appendChild(thinking); chat.scrollTop = chat.scrollHeight;
-  try{ const a=await answer(q); thinking.remove(); addMsg('bot', a); }
-  catch(err){ thinking.remove(); addMsg('bot', 'Error: ' + (err?.message||err)); }
-});
 
 // boot
 loadKBAndIndex();
