@@ -4,18 +4,31 @@ import Parser from "rss-parser";
 
 const parser = new Parser();
 
+// -----------------------------
+// 🌐 Feeds to fetch & learn from
+// -----------------------------
 const SOURCES = [
-  // photo
+  // --- Photography ---
   { url: "https://petapixel.com/feed/", topic: "photo" },
   { url: "https://www.dpreview.com/feeds/news.xml", topic: "photo" },
-  { url: "https://www.digitalcameraworld.com/feeds/all", topic: "photo" },
   { url: "https://fstoppers.com/feed", topic: "photo" },
+  { url: "https://www.digitalcameraworld.com/feeds/all", topic: "photo" },
+  { url: "https://www.slrlounge.com/feed/", topic: "photo" },
+  { url: "https://iso1200.com/feeds/posts/default", topic: "photo" },
+  { url: "https://photofocus.com/feed/", topic: "photo" },
 
-  // it / tech
-  { url: "https://www.techradar.com/rss", topic: "it" },
+  // --- Tech & IT ---
   { url: "https://www.theverge.com/rss/index.xml", topic: "it" },
-  { url: "https://www.cnet.com/rss/news/", topic: "it" }
+  { url: "https://www.techradar.com/rss", topic: "it" },
+  { url: "https://www.cnet.com/rss/news/", topic: "it" },
+  { url: "https://www.tomshardware.com/feeds/all", topic: "it" },
+  { url: "https://www.zdnet.com/news/rss.xml", topic: "it" },
+  { url: "https://www.windowscentral.com/rss", topic: "it" },
+  { url: "https://www.bleepingcomputer.com/feed/", topic: "it" },
+  { url: "https://www.howtogeek.com/feed/", topic: "it" },
+  { url: "https://www.xda-developers.com/feed/", topic: "it" },
 ];
+
 
 const PHOTO_HINTS = "camera cameras lens lenses mirrorless dslr sensor megapixel iso shutter aperture bokeh photo photography light lighting flash studio portrait landscape review specs price release firmware raw";
 const IT_HINTS    = "windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks";
