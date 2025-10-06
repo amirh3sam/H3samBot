@@ -12,3 +12,4 @@ html,body{height:100%;margin:0;background:#0b0f14;color:var(--ink);font:16px/1.5
 .input-row{display:flex;gap:10px;margin-top:12px}
 .input{flex:1;padding:12px 14px;border-radius:12px;border:1px solid #203045;background:#0e1420;color:var(--ink)}
 .btn{padding:12px 14px;border-radius:12px;border:1px solid #203045;background:#141d2a;color:var(--ink);cursor:pointer}
+.card{background:#0e1420;border:1px solid #202b3d;border-radius:10px;padding:12px;margin:8px 0}
