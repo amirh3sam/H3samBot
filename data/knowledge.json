@@ -400,14 +400,6 @@
     "date": "2025-10-09T15:30:40.000Z"
   },
   {
-    "title": "Meta wants its metaverse everywhere",
-    "q": "meta wants its metaverse everywhere windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>Meta wants its metaverse everywhere</b><br>Horizon Central, the town square of Meta’s metaverse, already runs on the new Meta Horizon game engine. This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The V…<br><a href=\"https://www.theverge.com/column/797624/meta-metaverse-horizon-worlds-mobile-vr-social\" target=\"_blank\">Read more</a>",
-    "link": "https://www.theverge.com/column/797624/meta-metaverse-horizon-worlds-mobile-vr-social",
-    "topic": "it",
-    "date": "2025-10-09T15:30:00.000Z"
-  },
-  {
     "title": " How to turn a Windows 10 laptop into a Chromebook ",
     "q": " how to turn a windows 10 laptop into a chromebook  windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
     "a": "<b> How to turn a Windows 10 laptop into a Chromebook </b><br>I’ll show you how to wipe your Windows 10 laptop and install Google’s free, lightweight, and versatile ChromeOS Flex.<br><a href=\"https://www.techradar.com/computing/windows/how-to-turn-a-windows-10-laptop-into-a-chromebook\" target=\"_blank\">Read more</a>",
@@ -416,12 +408,20 @@
     "date": "2025-10-09T16:49:04.000Z"
   },
   {
-    "title": "Apple's M4 Mac Mini Is Small, Mighty and Under $500",
-    "q": "apple's m4 mac mini is small, mighty and under $500 windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>Apple's M4 Mac Mini Is Small, Mighty and Under $500</b><br>Of all the Apple products I've tested, the M4 Mac Mini delivers the best value. And with a $100 discount it's even more enticing.<br><a href=\"https://www.cnet.com/deals/apples-m4-mac-mini-is-small-mighty-and-under-500/#ftag=CAD590a51e\" target=\"_blank\">Read more</a>",
-    "link": "https://www.cnet.com/deals/apples-m4-mac-mini-is-small-mighty-and-under-500/#ftag=CAD590a51e",
+    "title": "We Tested Dozens of Phones and These Have the Best Cameras",
+    "q": "we tested dozens of phones and these have the best cameras windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>We Tested Dozens of Phones and These Have the Best Cameras</b><br>We tested top camera phones from Apple, Google and Samsung. These are the ones that consistently deliver great photos and videos.<br><a href=\"https://www.cnet.com/tech/mobile/best-camera-phone/#ftag=CAD590a51e\" target=\"_blank\">Read more</a>",
+    "link": "https://www.cnet.com/tech/mobile/best-camera-phone/#ftag=CAD590a51e",
     "topic": "it",
-    "date": "2025-10-09T13:26:00.000Z"
+    "date": "2025-10-09T17:45:00.000Z"
+  },
+  {
+    "title": "Is Tim Cook Stepping Down? Apple CEO's 65th Birthday Sparks Succession Scuttlebutt",
+    "q": "is tim cook stepping down? apple ceo's 65th birthday sparks succession scuttlebutt windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>Is Tim Cook Stepping Down? Apple CEO's 65th Birthday Sparks Succession Scuttlebutt</b><br>Who will fill the chief executive role once Tim Cook decides to retire? Here are a few people reportedly being considered.<br><a href=\"https://www.cnet.com/tech/mobile/is-tim-cook-stepping-down-apple-ceos-65th-birthday-sparks-succession-scuttlebutt/#ftag=CAD590a51e\" target=\"_blank\">Read more</a>",
+    "link": "https://www.cnet.com/tech/mobile/is-tim-cook-stepping-down-apple-ceos-65th-birthday-sparks-succession-scuttlebutt/#ftag=CAD590a51e",
+    "topic": "it",
+    "date": "2025-10-09T17:41:46.000Z"
   },
   {
     "title": " China expands rare-earth export controls, creating risks for PC component supply — Beijing tightens grip on materials for HDDs and more to protect national security ",
@@ -430,6 +430,14 @@
     "link": "https://www.tomshardware.com/tech-industry/china-expands-rare-earth-export-controls",
     "topic": "it",
     "date": "2025-10-09T12:33:28.000Z"
+  },
+  {
+    "title": "Ubuntu 25.10 'Questing Quokka' brings an array of advances - plus some trouble",
+    "q": "ubuntu 25.10 'questing quokka' brings an array of advances - plus some trouble windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>Ubuntu 25.10 'Questing Quokka' brings an array of advances - plus some trouble</b><br>Canonical's latest Linux distro delivers cutting-edge features, improved security, and - ready or not - Wayland graphics.<br><a href=\"https://www.zdnet.com/article/ubuntu-25-10-questing-quokka-brings-an-array-of-advances-plus-some-trouble/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.zdnet.com/article/ubuntu-25-10-questing-quokka-brings-an-array-of-advances-plus-some-trouble/",
+    "topic": "it",
+    "date": "2025-10-09T18:21:07.000Z"
   },
   {
     "title": "Free AI-powered Dia browser now available to all Mac users - Windows users can join a waitlist",
@@ -488,6 +496,14 @@
     "date": "2025-10-09T13:51:44.000Z"
   },
   {
+    "title": "Microsoft Defender mistakenly flags SQL Server as end-of-life",
+    "q": "microsoft defender mistakenly flags sql server as end-of-life windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>Microsoft Defender mistakenly flags SQL Server as end-of-life</b><br>​Microsoft is working to resolve a known issue that causes its Defender for Endpoint enterprise endpoint security platform to incorrectly tag SQL Server software as end-of-life. [...]<br><a href=\"https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-mistakenly-flags-sql-server-as-end-of-life/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-mistakenly-flags-sql-server-as-end-of-life/",
+    "topic": "it",
+    "date": "2025-10-09T18:09:26.000Z"
+  },
+  {
     "title": "Microsoft: Windows Backup now available for enterprise users",
     "q": "microsoft: windows backup now available for enterprise users windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
     "a": "<b>Microsoft: Windows Backup now available for enterprise users</b><br>Microsoft announced this week the general availability of Windows Backup for Organizations, a new enterprise-grade backup tool that helps simplify backups and makes the transition to Windows 11 easier. [...]<br><a href=\"https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-backup-now-available-for-enterprise-users/\" target=\"_blank\">Read more</a>",
@@ -528,12 +544,12 @@
     "date": "2025-10-08T19:49:47.000Z"
   },
   {
-    "title": "Microsoft 365 outage blocks access to Teams, Exchange Online",
-    "q": "microsoft 365 outage blocks access to teams, exchange online windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>Microsoft 365 outage blocks access to Teams, Exchange Online</b><br>​Microsoft is working to resolve an ongoing outage preventing users from accessing Microsoft 365 services, including Microsoft Teams, Exchange Online, and the admin center. [...]<br><a href=\"https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-blocks-access-to-teams-exchange-online/\" target=\"_blank\">Read more</a>",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-blocks-access-to-teams-exchange-online/",
+    "title": "Here's How I Removed the Annoying Search Icons from My Windows 11 Taskbar",
+    "q": "here's how i removed the annoying search icons from my windows 11 taskbar windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>Here's How I Removed the Annoying Search Icons from My Windows 11 Taskbar</b><br>Keep only what you need on the taskbar.<br><a href=\"https://www.howtogeek.com/heres-how-i-removed-the-annoying-search-icons-from-my-windows-11-taskbar/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.howtogeek.com/heres-how-i-removed-the-annoying-search-icons-from-my-windows-11-taskbar/",
     "topic": "it",
-    "date": "2025-10-08T18:35:01.000Z"
+    "date": "2025-10-09T18:00:15.000Z"
   },
   {
     "title": "Microsoft OneDrive Is Getting an Overhaul",
@@ -550,21 +566,5 @@
     "link": "https://www.howtogeek.com/ubuntu-linux-2510-has-arrived/",
     "topic": "it",
     "date": "2025-10-09T15:00:50.000Z"
-  },
-  {
-    "title": "How to Insert an In-Cell Picture in Microsoft Excel",
-    "q": "how to insert an in-cell picture in microsoft excel windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>How to Insert an In-Cell Picture in Microsoft Excel</b><br>Make pictures an integral part of your Excel spreadsheet.<br><a href=\"https://www.howtogeek.com/microsoft-excel-insert-in-cell-picture/\" target=\"_blank\">Read more</a>",
-    "link": "https://www.howtogeek.com/microsoft-excel-insert-in-cell-picture/",
-    "topic": "it",
-    "date": "2025-10-09T15:00:16.000Z"
-  },
-  {
-    "title": "How to check if your router's guest network is secure",
-    "q": "how to check if your router's guest network is secure windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>How to check if your router's guest network is secure</b><br>Many routers claim to offer guest networks, but do they really provide proper VLAN isolation? Learn how to check your guest network's security<br><a href=\"https://www.xda-developers.com/your-guest-network-is-often-not-a-vlan-heres-how-to-check-and-what-to-do-instead/\" target=\"_blank\">Read more</a>",
-    "link": "https://www.xda-developers.com/your-guest-network-is-often-not-a-vlan-heres-how-to-check-and-what-to-do-instead/",
-    "topic": "it",
-    "date": "2025-10-09T13:00:18.000Z"
   }
 ]
