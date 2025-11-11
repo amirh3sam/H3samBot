@@ -416,6 +416,14 @@
     "date": "2025-11-10T22:35:00.000Z"
   },
   {
+    "title": "How Much Unified Memory Do I Need in a Mac?",
+    "q": "how much unified memory do i need in a mac? windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>How Much Unified Memory Do I Need in a Mac?</b><br>Apple's UMA design -- a single, fixed pool of RAM integrated into the die with the CPU, GPU and NPU -- makes Mac and MacBook configuration choices a little different than it used to be.<br><a href=\"https://www.cnet.com/tech/computing/how-much-unified-memory-do-i-need-in-a-mac/#ftag=CAD590a51e\" target=\"_blank\">Read more</a>",
+    "link": "https://www.cnet.com/tech/computing/how-much-unified-memory-do-i-need-in-a-mac/#ftag=CAD590a51e",
+    "topic": "it",
+    "date": "2025-11-11T02:53:12.000Z"
+  },
+  {
     "title": "Apple Has New iPhone Satellite Features in the Works, Report Says",
     "q": "apple has new iphone satellite features in the works, report says windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
     "a": "<b>Apple Has New iPhone Satellite Features in the Works, Report Says</b><br>Upcoming additions could greatly expand how your iPhone can benefit from satellite connections.<br><a href=\"https://www.cnet.com/tech/services-and-software/apple-has-new-iphone-satellite-features-in-the-works-report-says/#ftag=CAD590a51e\" target=\"_blank\">Read more</a>",
@@ -446,6 +454,14 @@
     "link": "https://www.tomshardware.com/pc-components/external-ssds/new-2-gb-s-external-ssd-has-a-tiny-screen-for-real-time-updates-on-ssd-health-and-performance-nextorages-nx-pfs1pro-includes-hardware-encryption-and-an-auto-erase-security-feature-to-protect-against-intruders",
     "topic": "it",
     "date": "2025-11-10T16:51:25.000Z"
+  },
+  {
+    "title": "How Microsoft finally makes good on its syncable passkey promise - and what's coming next",
+    "q": "how microsoft finally makes good on its syncable passkey promise - and what's coming next windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>How Microsoft finally makes good on its syncable passkey promise - and what's coming next</b><br>The phased rollout of Microsoft's platform authenticator strategy began last week for Edge on Windows 10 and 11. Here's what it does for you.<br><a href=\"https://www.zdnet.com/article/how-microsoft-finally-makes-good-on-its-syncable-passkey-promise-and-whats-coming-next/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.zdnet.com/article/how-microsoft-finally-makes-good-on-its-syncable-passkey-promise-and-whats-coming-next/",
+    "topic": "it",
+    "date": "2025-11-11T03:00:43.000Z"
   },
   {
     "title": "Have an old Starlink dish lying around? Update it this week - or it'll never work again",
@@ -560,11 +576,19 @@
     "date": "2025-11-10T18:59:30.000Z"
   },
   {
-    "title": "Breaking my Linux install taught me more about computers than Windows ever did",
-    "q": "breaking my linux install taught me more about computers than windows ever did windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>Breaking my Linux install taught me more about computers than Windows ever did</b><br>I learned a lot in a few months.<br><a href=\"https://www.xda-developers.com/breaking-linux-install-taught-me-more-about-computers-than-windows/\" target=\"_blank\">Read more</a>",
-    "link": "https://www.xda-developers.com/breaking-linux-install-taught-me-more-about-computers-than-windows/",
+    "title": "The creator of Task Manager explains why people hate Windows 11, and how Microsoft can fix it",
+    "q": "the creator of task manager explains why people hate windows 11, and how microsoft can fix it windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>The creator of Task Manager explains why people hate Windows 11, and how Microsoft can fix it</b><br>He makes some excellent points.<br><a href=\"https://www.xda-developers.com/creator-task-manager-explains-why-people-hate-windows-11-and-how-microsoft-can-fix-it/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.xda-developers.com/creator-task-manager-explains-why-people-hate-windows-11-and-how-microsoft-can-fix-it/",
     "topic": "it",
-    "date": "2025-11-10T21:00:21.000Z"
+    "date": "2025-11-11T06:11:29.000Z"
+  },
+  {
+    "title": "One of the best ways to dodge Windows 11's system requirements has just released version 2.0",
+    "q": "one of the best ways to dodge windows 11's system requirements has just released version 2.0 windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>One of the best ways to dodge Windows 11's system requirements has just released version 2.0</b><br>It's cleaner than ever before.<br><a href=\"https://www.xda-developers.com/best-ways-dodge-windows-11s-system-requirements-just-released-version-20/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.xda-developers.com/best-ways-dodge-windows-11s-system-requirements-just-released-version-20/",
+    "topic": "it",
+    "date": "2025-11-11T01:41:25.000Z"
   }
 ]
