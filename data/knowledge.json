@@ -373,7 +373,7 @@
     "a": "<b>Frozen Waymos backed up San Francisco traffic during a widespread power outage</b><br>Waymo driverless car is not able to detect traffic lights after a major power outage in San Francisco, California, | Photo by Tayfun Coskun/Anadolu via Getty Images A power outage struck San Francisco on Saturday that blacked out about 130…<br><a href=\"https://www.theverge.com/news/848843/waymo-san-francisco-power-outage\" target=\"_blank\">Read more</a>",
     "link": "https://www.theverge.com/news/848843/waymo-san-francisco-power-outage",
     "topic": "it",
-    "date": "2025-12-21T19:17:00.000Z"
+    "date": "2025-12-22T02:45:10.000Z"
   },
   {
     "title": "The best thing I bought this year: The Nintendo Switch 2",
@@ -504,6 +504,14 @@
     "date": "2025-12-19T15:00:45.000Z"
   },
   {
+    "title": "Kubuntu Focus M2: The power and privacy of Linux without the hassle",
+    "q": "kubuntu focus m2: the power and privacy of linux without the hassle windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>Kubuntu Focus M2: The power and privacy of Linux without the hassle</b><br>This article is sponsored by Kubuntu<br><a href=\"https://www.howtogeek.com/kubuntu-focus-m2-the-power-and-privacy-of-linux-without-the-hassle/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.howtogeek.com/kubuntu-focus-m2-the-power-and-privacy-of-linux-without-the-hassle/",
+    "topic": "it",
+    "date": "2025-12-22T05:01:15.000Z"
+  },
+  {
     "title": "5 hidden terminal surprises you can try on Ubuntu right now",
     "q": "5 hidden terminal surprises you can try on ubuntu right now windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
     "a": "<b>5 hidden terminal surprises you can try on Ubuntu right now</b><br>These Easter Eggs are waiting to be uncovered in Ubuntu Linux, if you know the right commands.<br><a href=\"https://www.howtogeek.com/ubuntu-terminal-easter-eggs/\" target=\"_blank\">Read more</a>",
@@ -526,13 +534,5 @@
     "link": "https://www.xda-developers.com/windows-11-virtual-desktops-better-than-linux-workspaces-actually/",
     "topic": "it",
     "date": "2025-12-21T21:00:19.000Z"
-  },
-  {
-    "title": "ZFS is great for storage, but it can be a maintenance nightmare",
-    "q": "zfs is great for storage, but it can be a maintenance nightmare windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>ZFS is great for storage, but it can be a maintenance nightmare</b><br>ZFS isn't natively supported on Linux.<br><a href=\"https://www.xda-developers.com/zfs-great-for-storage-maintenance-nightmare/\" target=\"_blank\">Read more</a>",
-    "link": "https://www.xda-developers.com/zfs-great-for-storage-maintenance-nightmare/",
-    "topic": "it",
-    "date": "2025-12-21T18:00:19.000Z"
   }
 ]
