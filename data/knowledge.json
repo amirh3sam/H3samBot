@@ -392,14 +392,6 @@
     "date": "2026-01-10T14:00:00.000Z"
   },
   {
-    "title": " Broadcom reinvents AMD's APU moniker as it launches Wi-Fi 8 chip — this accelerated processing unit doesn't include a GPU but has 10GbE connectivity ",
-    "q": " broadcom reinvents amd's apu moniker as it launches wi-fi 8 chip — this accelerated processing unit doesn't include a gpu but has 10gbe connectivity  windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b> Broadcom reinvents AMD's APU moniker as it launches Wi-Fi 8 chip — this accelerated processing unit doesn't include a GPU but has 10GbE connectivity </b><br>Broadcom’s BCM4918 applies the APU label to a Wi-Fi 8 processor integrating compute, networking, AI, and security without graphics<br><a href=\"https://www.techradar.com/pro/broadcom-reinvents-amds-apu-moniker-as-it-launches-wi-fi-8-chip-this-accelerated-processing-unit-doesnt-include-a-gpu-but-has-10gbe-connectivity\" target=\"_blank\">Read more</a>",
-    "link": "https://www.techradar.com/pro/broadcom-reinvents-amds-apu-moniker-as-it-launches-wi-fi-8-chip-this-accelerated-processing-unit-doesnt-include-a-gpu-but-has-10gbe-connectivity",
-    "topic": "it",
-    "date": "2026-01-10T17:35:00.000Z"
-  },
-  {
     "title": " Admins finally get the power to uninstall Microsoft Copilot on Windows 11 Pro, Enterprise, and EDU versions — devices must meet specific conditions to allow the removal of the AI app ",
     "q": " admins finally get the power to uninstall microsoft copilot on windows 11 pro, enterprise, and edu versions — devices must meet specific conditions to allow the removal of the ai app  windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
     "a": "<b> Admins finally get the power to uninstall Microsoft Copilot on Windows 11 Pro, Enterprise, and EDU versions — devices must meet specific conditions to allow the removal of the AI app </b><br>Microsoft finally allows administrators to remove the Microsoft Copilot app from managed versions of Windows 11 Pro, Enterprise, and EDU. However, you need to have Microsoft 365 Copilot installed, among other conditions.<br><a href=\"https://www.tomshardware.com/software/windows/admins-finally-get-the-power-to-uninstall-microsoft-copilot-on-windows-11-pro-enterprise-and-edu-versions-devices-must-meet-specific-conditions-to-allow-the-removal-of-the-ai-app\" target=\"_blank\">Read more</a>",
@@ -510,6 +502,14 @@
     "link": "https://www.howtogeek.com/6-ways-linux-keeps-my-pc-ageless/",
     "topic": "it",
     "date": "2026-01-10T18:30:16.000Z"
+  },
+  {
+    "title": "Microsoft is axing one of its more beloved Android and iOS apps",
+    "q": "microsoft is axing one of its more beloved android and ios apps windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>Microsoft is axing one of its more beloved Android and iOS apps</b><br>OneDrive is taking over.<br><a href=\"https://www.xda-developers.com/microsoft-is-axing-one-of-its-more-beloved-android-and-ios-apps/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.xda-developers.com/microsoft-is-axing-one-of-its-more-beloved-android-and-ios-apps/",
+    "topic": "it",
+    "date": "2026-01-11T06:03:42.000Z"
   },
   {
     "title": "WSL is powerful, but these 3 reasons are why it won't beat a real Linux desktop",
