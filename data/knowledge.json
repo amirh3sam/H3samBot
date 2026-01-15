@@ -352,12 +352,12 @@
     "date": "2026-01-14T20:35:00.000Z"
   },
   {
-    "title": "Verizon Outage Hits Around 175,000 Customers (Live Updates)",
-    "q": "verizon outage hits around 175,000 customers (live updates) windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>Verizon Outage Hits Around 175,000 Customers (Live Updates)</b><br>Verizon says it's working to restore service. But if your Verizon device still shows \"SOS\" instead of service bars, you're affected by today's outage.<br><a href=\"https://www.cnet.com/news-live/verizon-outage-hits-around-175000-customers/\" target=\"_blank\">Read more</a>",
-    "link": "https://www.cnet.com/news-live/verizon-outage-hits-around-175000-customers/",
+    "title": "Verizon Says It's Resolved Massive Outage Across US (Live Updates)",
+    "q": "verizon says it's resolved massive outage across us (live updates) windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>Verizon Says It's Resolved Massive Outage Across US (Live Updates)</b><br>The carrier says it has restored service to the 2 million customers reportedly affected. It's also announced that it will issue credits to those affected by the hours-long outage.<br><a href=\"https://www.cnet.com/news-live/verizon-outage-january-2026/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.cnet.com/news-live/verizon-outage-january-2026/",
     "topic": "it",
-    "date": "2026-01-14T21:31:00.000Z"
+    "date": "2026-01-15T04:06:00.000Z"
   },
   {
     "title": "Animal Crossing: New Horizons Drops Long-Awaited Update One Day Early",
@@ -382,6 +382,14 @@
     "link": "https://www.tomshardware.com/pc-components/gpu-drivers/nvidia-dlss-4-5-super-resolution-leaves-beta-available-now-to-nvidia-app-users-update-includes-support-for-over-400-titles-with-new-presets",
     "topic": "it",
     "date": "2026-01-14T14:00:00.000Z"
+  },
+  {
+    "title": "Verizon outage affects over 2 million users: What 'SOS' means, refunds, more updates",
+    "q": "verizon outage affects over 2 million users: what 'sos' means, refunds, more updates windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>Verizon outage affects over 2 million users: What 'SOS' means, refunds, more updates</b><br>If you see an SOS sign at the top of your phone, don't panic just yet. It's happening across the US.<br><a href=\"https://www.zdnet.com/article/verizon-outage-sos-phone-us/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.zdnet.com/article/verizon-outage-sos-phone-us/",
+    "topic": "it",
+    "date": "2026-01-15T02:10:00.000Z"
   },
   {
     "title": "7 deprecated Linux commands you need to stop using - and what to use instead",
@@ -454,22 +462,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/consentfix-debrief-insights-from-the-new-oauth-phishing-attack/",
     "topic": "it",
     "date": "2026-01-14T15:01:11.000Z"
-  },
-  {
-    "title": "Reprompt attack hijacked Microsoft Copilot sessions for data theft",
-    "q": "reprompt attack hijacked microsoft copilot sessions for data theft windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>Reprompt attack hijacked Microsoft Copilot sessions for data theft</b><br>Researchers identified an attack method dubbed \"Reprompt\" that could allow attackers to infiltrate a user's Microsoft Copilot session and issue commands to exfiltrate sensitive data. [...]<br><a href=\"https://www.bleepingcomputer.com/news/security/reprompt-attack-let-hackers-hijack-microsoft-copilot-sessions/\" target=\"_blank\">Read more</a>",
-    "link": "https://www.bleepingcomputer.com/news/security/reprompt-attack-let-hackers-hijack-microsoft-copilot-sessions/",
-    "topic": "it",
-    "date": "2026-01-14T14:00:00.000Z"
-  },
-  {
-    "title": "Cloud marketplace Pax8 accidentally exposes data on 1,800 MSP partners",
-    "q": "cloud marketplace pax8 accidentally exposes data on 1,800 msp partners windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>Cloud marketplace Pax8 accidentally exposes data on 1,800 MSP partners</b><br>Cloud marketplace and distributor Pax8 has confirmed that it mistakenly sent an email to fewer than 40 UK-based partners containing a spreadsheet with internal business information, including MSP customer and Microsoft licensing data. [...]<br><a href=\"https://www.bleepingcomputer.com/news/security/cloud-marketplace-pax8-accidentally-exposes-data-on-1-800-msp-partners/\" target=\"_blank\">Read more</a>",
-    "link": "https://www.bleepingcomputer.com/news/security/cloud-marketplace-pax8-accidentally-exposes-data-on-1-800-msp-partners/",
-    "topic": "it",
-    "date": "2026-01-14T12:01:07.000Z"
   },
   {
     "title": "After 18 years, this Windows version is finally retired",
