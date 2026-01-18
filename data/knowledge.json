@@ -400,14 +400,6 @@
     "date": "2026-01-17T13:00:50.000Z"
   },
   {
-    "title": "4 reasons iPhone users should upgrade to iOS 26 ASAP - including dozens of bugs",
-    "q": "4 reasons iphone users should upgrade to ios 26 asap - including dozens of bugs windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>4 reasons iPhone users should upgrade to iOS 26 ASAP - including dozens of bugs</b><br>Many iPhone owners may be resisting iOS 26. But this latest version does carry with it important security updates that will keep your phone protected.<br><a href=\"https://www.zdnet.com/article/ios26-upgrade-security-reasons/\" target=\"_blank\">Read more</a>",
-    "link": "https://www.zdnet.com/article/ios26-upgrade-security-reasons/",
-    "topic": "it",
-    "date": "2026-01-17T01:22:00.000Z"
-  },
-  {
     "title": " PC hardware is entering a golden age of design and engineering, while Windows — with its newfound AI obsession — has never felt worse. Something must change. ",
     "q": " pc hardware is entering a golden age of design and engineering, while windows — with its newfound ai obsession — has never felt worse. something must change.  windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
     "a": "<b> PC hardware is entering a golden age of design and engineering, while Windows — with its newfound AI obsession — has never felt worse. Something must change. </b><br>My visit to CES 2026 cemented my opinion that PC hardware has never been in a better state from a design and engineering standpoint. Windows, on the other hand, seems to be on the decline.<br><a href=\"https://www.windowscentral.com/microsoft/windows/pc-hardware-golden-age-windows-never-worse\" target=\"_blank\">Read more</a>",
@@ -440,20 +432,20 @@
     "date": "2026-01-17T12:44:45.000Z"
   },
   {
+    "title": "Credential-stealing Chrome extensions target enterprise HR platforms",
+    "q": "credential-stealing chrome extensions target enterprise hr platforms windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>Credential-stealing Chrome extensions target enterprise HR platforms</b><br>Malicious Chrome extensions on the Chrome Web Store masquerading as productivity and security tools for enterprise HR and ERP platforms were discovered stealing authentication credentials or blocking management pages used to respond to sec…<br><a href=\"https://www.bleepingcomputer.com/news/security/credential-stealing-chrome-extensions-target-enterprise-hr-platforms/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.bleepingcomputer.com/news/security/credential-stealing-chrome-extensions-target-enterprise-hr-platforms/",
+    "topic": "it",
+    "date": "2026-01-17T16:19:30.000Z"
+  },
+  {
     "title": "Microsoft: Windows 11 update causes Outlook freezes for POP users",
     "q": "microsoft: windows 11 update causes outlook freezes for pop users windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
     "a": "<b>Microsoft: Windows 11 update causes Outlook freezes for POP users</b><br>Microsoft confirmed that the KB5074109 January Windows 11 security update causes the classic Outlook desktop client to freeze and hang for users with POP email accounts. [...]<br><a href=\"https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-update-causes-outlook-freezes-for-pop-users/\" target=\"_blank\">Read more</a>",
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-update-causes-outlook-freezes-for-pop-users/",
     "topic": "it",
     "date": "2026-01-16T12:12:41.000Z"
-  },
-  {
-    "title": "Microsoft: Some Windows PCs fail to shut down after January update",
-    "q": "microsoft: some windows pcs fail to shut down after january update windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>Microsoft: Some Windows PCs fail to shut down after January update</b><br>Microsoft has confirmed a new issue that prevents Windows 11 23H2 devices with System Guard Secure Launch enabled from shutting down. [...]<br><a href=\"https://www.bleepingcomputer.com/news/security/microsoft-some-windows-pcs-fail-to-shut-down-after-january-update/\" target=\"_blank\">Read more</a>",
-    "link": "https://www.bleepingcomputer.com/news/security/microsoft-some-windows-pcs-fail-to-shut-down-after-january-update/",
-    "topic": "it",
-    "date": "2026-01-16T08:35:38.000Z"
   },
   {
     "title": "KDE Plasma 6.7 is bringing dark mode toggle, push to talk, and more",
@@ -488,6 +480,14 @@
     "date": "2026-01-17T17:00:16.000Z"
   },
   {
+    "title": "Someone finally got the Adobe CC installers working on Linux with Wine",
+    "q": "someone finally got the adobe cc installers working on linux with wine windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>Someone finally got the Adobe CC installers working on Linux with Wine</b><br>It's a miracle.<br><a href=\"https://www.xda-developers.com/someone-finally-got-the-adobe-cc-installers-working-on-linux-with-wine/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.xda-developers.com/someone-finally-got-the-adobe-cc-installers-working-on-linux-with-wine/",
+    "topic": "it",
+    "date": "2026-01-18T06:17:38.000Z"
+  },
+  {
     "title": "Forget Microsoft Loop: Try these open-source apps instead",
     "q": "forget microsoft loop: try these open-source apps instead windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
     "a": "<b>Forget Microsoft Loop: Try these open-source apps instead</b><br>Same idea, but open-source<br><a href=\"https://www.xda-developers.com/forget-microsoft-loop-try-open-source-apps-instead/\" target=\"_blank\">Read more</a>",
@@ -510,13 +510,5 @@
     "link": "https://www.xda-developers.com/windows-server-2025-belongs-in-homelabs-not-just-enterprises/",
     "topic": "it",
     "date": "2026-01-17T21:00:20.000Z"
-  },
-  {
-    "title": "4 Windows features that Linux still can’t beat",
-    "q": "4 windows features that linux still can’t beat windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>4 Windows features that Linux still can’t beat</b><br>Your move, Linux<br><a href=\"https://www.xda-developers.com/windows-features-that-linux-does-not-have-an-answer-to/\" target=\"_blank\">Read more</a>",
-    "link": "https://www.xda-developers.com/windows-features-that-linux-does-not-have-an-answer-to/",
-    "topic": "it",
-    "date": "2026-01-17T20:30:20.000Z"
   }
 ]
