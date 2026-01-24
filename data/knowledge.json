@@ -392,12 +392,12 @@
     "date": "2026-01-23T20:14:00.000Z"
   },
   {
-    "title": "Windows 8 lives again on Linux, and I'm just as confused by it as you",
-    "q": "windows 8 lives again on linux, and i'm just as confused by it as you windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>Windows 8 lives again on Linux, and I'm just as confused by it as you</b><br>This new project proves there's very little you can't do with Linux - even if you probably shouldn't.<br><a href=\"https://www.zdnet.com/article/windows-8-linux-ui-project/\" target=\"_blank\">Read more</a>",
-    "link": "https://www.zdnet.com/article/windows-8-linux-ui-project/",
+    "title": " Microsoft confirms it will give the FBI your Windows PC data encryption key if asked — you can thank Windows 11's forced online accounts for that ",
+    "q": " microsoft confirms it will give the fbi your windows pc data encryption key if asked — you can thank windows 11's forced online accounts for that  windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b> Microsoft confirms it will give the FBI your Windows PC data encryption key if asked — you can thank Windows 11's forced online accounts for that </b><br>Windows 11's online Microsoft Account requirement means your PC is automatically backing up its data encryption key to the cloud, and Microsoft says it will hand those over to the FBI if asked.<br><a href=\"https://www.windowscentral.com/microsoft/windows-11/microsoft-bitlocker-encryption-keys-give-fbi-legal-order-privacy-nightmare\" target=\"_blank\">Read more</a>",
+    "link": "https://www.windowscentral.com/microsoft/windows-11/microsoft-bitlocker-encryption-keys-give-fbi-legal-order-privacy-nightmare",
     "topic": "it",
-    "date": "2026-01-23T19:12:00.000Z"
+    "date": "2026-01-24T01:59:16.000Z"
   },
   {
     "title": " Windows 11 won’t even let some users uninstall KB5074109 — error 0x800f0905 is blocking the rollback. Try these tips to fix. ",
@@ -408,9 +408,9 @@
     "date": "2026-01-23T22:40:12.000Z"
   },
   {
-    "title": " Xbox Game Studios head says \"we want our games to reach the most players that we can,\" signaling more PS5 releases — is Microsoft done with Xbox exclusives? ",
-    "q": " xbox game studios head says \"we want our games to reach the most players that we can,\" signaling more ps5 releases — is microsoft done with xbox exclusives?  windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b> Xbox Game Studios head says \"we want our games to reach the most players that we can,\" signaling more PS5 releases — is Microsoft done with Xbox exclusives? </b><br>Craig Duncan, the head of Microsoft's Xbox Game Studios, says that the publisher wants \"to reach the most players that we can\" with its game releases.<br><a href=\"https://www.windowscentral.com/gaming/xbox/xbox-game-studios-head-says-we-want-our-games-to-reach-the-most-players-that-we-can-signaling-more-ps5-releases\" target=\"_blank\">Read more</a>",
+    "title": " Xbox Game Studios head says \"we want our games to reach the most players that we can,\" signalling more PS5 releases — Microsoft is done with Xbox exclusives ",
+    "q": " xbox game studios head says \"we want our games to reach the most players that we can,\" signalling more ps5 releases — microsoft is done with xbox exclusives  windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b> Xbox Game Studios head says \"we want our games to reach the most players that we can,\" signalling more PS5 releases — Microsoft is done with Xbox exclusives </b><br>Craig Duncan, the head of Microsoft's Xbox Game Studios, says that the publisher wants \"to reach the most players that we can\" with its game releases.<br><a href=\"https://www.windowscentral.com/gaming/xbox/xbox-game-studios-head-says-we-want-our-games-to-reach-the-most-players-that-we-can-signaling-more-ps5-releases\" target=\"_blank\">Read more</a>",
     "link": "https://www.windowscentral.com/gaming/xbox/xbox-game-studios-head-says-we-want-our-games-to-reach-the-most-players-that-we-can-signaling-more-ps5-releases",
     "topic": "it",
     "date": "2026-01-23T21:01:27.000Z"
@@ -422,14 +422,6 @@
     "link": "https://www.windowscentral.com/microsoft/windows-11/windows-11-sandbox-hit-by-error-0x800705b4-quick-fix-how-to",
     "topic": "it",
     "date": "2026-01-23T16:43:23.000Z"
-  },
-  {
-    "title": " Microsoft Teams wants to become your boss' lapdog, automatically snitching on your live location inside the office Wi-Fi — but it won't ship until it's bug-free ",
-    "q": " microsoft teams wants to become your boss' lapdog, automatically snitching on your live location inside the office wi-fi — but it won't ship until it's bug-free  windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b> Microsoft Teams wants to become your boss' lapdog, automatically snitching on your live location inside the office Wi-Fi — but it won't ship until it's bug-free </b><br>Microsoft is delaying its Teams' controversial Wi-FI location tracking feature again. It is expected to roll out to broad availability by mid-March this year.<br><a href=\"https://www.windowscentral.com/microsoft/microsoft-teams/microsoft-teams-is-about-to-become-your-boss-lapdog-update\" target=\"_blank\">Read more</a>",
-    "link": "https://www.windowscentral.com/microsoft/microsoft-teams/microsoft-teams-is-about-to-become-your-boss-lapdog-update",
-    "topic": "it",
-    "date": "2026-01-23T12:00:00.000Z"
   },
   {
     "title": "ShinyHunters claim to be behind SSO-account data theft attacks",
@@ -478,5 +470,13 @@
     "link": "https://www.bleepingcomputer.com/news/security/hackers-get-1-047-000-for-76-zero-days-at-pwn2own-automotive-2026/",
     "topic": "it",
     "date": "2026-01-23T12:50:11.000Z"
+  },
+  {
+    "title": "KDE Plasma 6.6.0 will fix the most annoying part of printing within the desktop environment",
+    "q": "kde plasma 6.6.0 will fix the most annoying part of printing within the desktop environment windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>KDE Plasma 6.6.0 will fix the most annoying part of printing within the desktop environment</b><br>The update will contain a ton of welcome fixes.<br><a href=\"https://www.xda-developers.com/kde-plasma-660-will-fix-the-most-annoying-part-of-printing-within-the-desktop-environment/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.xda-developers.com/kde-plasma-660-will-fix-the-most-annoying-part-of-printing-within-the-desktop-environment/",
+    "topic": "it",
+    "date": "2026-01-24T03:30:08.000Z"
   }
 ]
