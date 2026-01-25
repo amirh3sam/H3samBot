@@ -354,7 +354,7 @@
   {
     "title": "Gmail’s spam filter and automatic sorting are broken",
     "q": "gmail’s spam filter and automatic sorting are broken windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>Gmail’s spam filter and automatic sorting are broken</b><br>Some Gmail users have noticed that promotional emails that normally go to their own siloed tab have started flooding their inbox. Reports have been hitting the Google forums and Reddit that messages are bypassing the Updates and Promotiona…<br><a href=\"https://www.theverge.com/tech/867247/gmails-spam-filter-broken\" target=\"_blank\">Read more</a>",
+    "a": "<b>Gmail’s spam filter and automatic sorting are broken</b><br>Some Gmail users may have noticed that promotional emails that normally go to their own siloed tab have started flooding their inbox. Reports hit the Google forums and Reddit that messages are bypassing the Updates and Promotional filters …<br><a href=\"https://www.theverge.com/tech/867247/gmails-spam-filter-broken\" target=\"_blank\">Read more</a>",
     "link": "https://www.theverge.com/tech/867247/gmails-spam-filter-broken",
     "topic": "it",
     "date": "2026-01-24T17:54:10.000Z"
@@ -382,22 +382,6 @@
     "link": "https://www.techradar.com/computing/windows/the-nexphone-could-already-be-the-most-important-hardware-launch-of-2026-heres-why",
     "topic": "it",
     "date": "2026-01-24T17:00:00.000Z"
-  },
-  {
-    "title": "300,000 AI Poses in an Instant: My Visit to Disney Studios and the New Reality for Animation",
-    "q": "300,000 ai poses in an instant: my visit to disney studios and the new reality for animation windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>300,000 AI Poses in an Instant: My Visit to Disney Studios and the New Reality for Animation</b><br>Disney's Imagineers checked out \"thousands of AI companies\" before backing one that keeps animators in the driver's seat.<br><a href=\"https://www.cnet.com/tech/services-and-software/300000-ai-animated-poses-in-an-instant-my-visit-to-disney-and-the-new-reality-for-cartoons/\" target=\"_blank\">Read more</a>",
-    "link": "https://www.cnet.com/tech/services-and-software/300000-ai-animated-poses-in-an-instant-my-visit-to-disney-and-the-new-reality-for-cartoons/",
-    "topic": "it",
-    "date": "2026-01-24T15:07:28.000Z"
-  },
-  {
-    "title": "Every iPhone 17E Rumor and Leak That I Found: Dynamic Island, MagSafe and More",
-    "q": "every iphone 17e rumor and leak that i found: dynamic island, magsafe and more windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>Every iPhone 17E Rumor and Leak That I Found: Dynamic Island, MagSafe and More</b><br>Apple's reportedly releasing a lower-priced iPhone 17, and it might offer notable improvements over last year's iPhone 16E.<br><a href=\"https://www.cnet.com/tech/mobile/iphone-17e-release-date-price-specs-features-rumors/\" target=\"_blank\">Read more</a>",
-    "link": "https://www.cnet.com/tech/mobile/iphone-17e-release-date-price-specs-features-rumors/",
-    "topic": "it",
-    "date": "2026-01-24T13:00:49.000Z"
   },
   {
     "title": " Microsoft gave customers' BitLocker encryption keys to the FBI — Redmond confirms that it provides recovery keys to government agencies with valid legal orders ",
@@ -440,9 +424,17 @@
     "date": "2026-01-23T22:40:12.000Z"
   },
   {
-    "title": "ShinyHunters claim to be behind SSO-account data theft attacks",
-    "q": "shinyhunters claim to be behind sso-account data theft attacks windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>ShinyHunters claim to be behind SSO-account data theft attacks</b><br>The ShinyHunters extortion gang claims it is behind a wave of ongoing voice phishing attacks targeting single sign-on (SSO) accounts at Okta, Microsoft, and Google, enabling threat actors to breach corporate SaaS platforms and steal compan…<br><a href=\"https://www.bleepingcomputer.com/news/security/shinyhunters-claim-to-be-behind-sso-account-data-theft-attacks/\" target=\"_blank\">Read more</a>",
+    "title": "Microsoft releases emergency OOB update to fix Outlook freezes",
+    "q": "microsoft releases emergency oob update to fix outlook freezes windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>Microsoft releases emergency OOB update to fix Outlook freezes</b><br>Microsoft has released emergency, out-of-band updates on Saturday for Windows 10, Windows 11, and Windows Server to fix an issue that prevented Microsoft Outlook classic from opening when using PSTs stored in cloud storage. [...]<br><a href=\"https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-oob-update-to-fix-outlook-freezes/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-oob-update-to-fix-outlook-freezes/",
+    "topic": "it",
+    "date": "2026-01-25T01:59:15.000Z"
+  },
+  {
+    "title": "ShinyHunters claim hacks of Okta, Microsoft SSO accounts for data theft",
+    "q": "shinyhunters claim hacks of okta, microsoft sso accounts for data theft windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>ShinyHunters claim hacks of Okta, Microsoft SSO accounts for data theft</b><br>The ShinyHunters extortion gang claims it is behind a wave of ongoing voice phishing attacks targeting single sign-on (SSO) accounts at Okta, Microsoft, and Google, enabling threat actors to breach corporate SaaS platforms and steal compan…<br><a href=\"https://www.bleepingcomputer.com/news/security/shinyhunters-claim-to-be-behind-sso-account-data-theft-attacks/\" target=\"_blank\">Read more</a>",
     "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-claim-to-be-behind-sso-account-data-theft-attacks/",
     "topic": "it",
     "date": "2026-01-23T23:35:03.000Z"
@@ -480,12 +472,28 @@
     "date": "2026-01-23T13:34:25.000Z"
   },
   {
-    "title": "Hackers get $1,047,000 for 76 zero-days at Pwn2Own Automotive 2026",
-    "q": "hackers get $1,047,000 for 76 zero-days at pwn2own automotive 2026 windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>Hackers get $1,047,000 for 76 zero-days at Pwn2Own Automotive 2026</b><br>Pwn2Own Automotive 2026 has ended with security researchers earning $1,047,000 after exploiting 76 zero-day vulnerabilities between January 21 and January 23. [...]<br><a href=\"https://www.bleepingcomputer.com/news/security/hackers-get-1-047-000-for-76-zero-days-at-pwn2own-automotive-2026/\" target=\"_blank\">Read more</a>",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-get-1-047-000-for-76-zero-days-at-pwn2own-automotive-2026/",
+    "title": "CachyOS is the latest Linux distro to put Wayland first in its new update",
+    "q": "cachyos is the latest linux distro to put wayland first in its new update windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>CachyOS is the latest Linux distro to put Wayland first in its new update</b><br>But X11 seems to be sticking around.<br><a href=\"https://www.xda-developers.com/cachyos-is-the-latest-linux-distro-to-put-wayland-first-in-its-new-update/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.xda-developers.com/cachyos-is-the-latest-linux-distro-to-put-wayland-first-in-its-new-update/",
     "topic": "it",
-    "date": "2026-01-23T12:50:11.000Z"
+    "date": "2026-01-25T04:01:19.000Z"
+  },
+  {
+    "title": "Microsoft releases a second Windows 11 emergency patch as the Patch Tuesday update causes havoc",
+    "q": "microsoft releases a second windows 11 emergency patch as the patch tuesday update causes havoc windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>Microsoft releases a second Windows 11 emergency patch as the Patch Tuesday update causes havoc</b><br>Let's hope there's not a third.<br><a href=\"https://www.xda-developers.com/windows-11s-patch-tuesday-update-is-causing-havoc-as-microsoft-releases-a-second-emergency-patch/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.xda-developers.com/windows-11s-patch-tuesday-update-is-causing-havoc-as-microsoft-releases-a-second-emergency-patch/",
+    "topic": "it",
+    "date": "2026-01-25T02:56:43.000Z"
+  },
+  {
+    "title": "This free tool from Microsoft made my PC way faster without any hardware upgrade",
+    "q": "this free tool from microsoft made my pc way faster without any hardware upgrade windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>This free tool from Microsoft made my PC way faster without any hardware upgrade</b><br>Make Windows feel new again for $0.<br><a href=\"https://www.xda-developers.com/free-tool-microsoft-made-pc-way-faster-without-hardware-upgrade/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.xda-developers.com/free-tool-microsoft-made-pc-way-faster-without-hardware-upgrade/",
+    "topic": "it",
+    "date": "2026-01-25T02:01:20.000Z"
   },
   {
     "title": "I’m a power user and I’m disabling these Windows features on purpose",
@@ -518,13 +526,5 @@
     "link": "https://www.xda-developers.com/thin-clients-best-linux-machines-nobody-knows-use-correctly/",
     "topic": "it",
     "date": "2026-01-24T21:30:21.000Z"
-  },
-  {
-    "title": "I finally removed Microsoft's AI junk from my PC with this app",
-    "q": "i finally removed microsoft's ai junk from my pc with this app windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>I finally removed Microsoft's AI junk from my PC with this app</b><br>Tired of AI in Windows 11? You're not alone, and we've used this script that can help you remove it all in one go.<br><a href=\"https://www.xda-developers.com/removed-microsofts-ai-junk-from-pc-with-this-app/\" target=\"_blank\">Read more</a>",
-    "link": "https://www.xda-developers.com/removed-microsofts-ai-junk-from-pc-with-this-app/",
-    "topic": "it",
-    "date": "2026-01-24T21:01:19.000Z"
   }
 ]
