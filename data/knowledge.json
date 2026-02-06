@@ -352,12 +352,12 @@
     "date": "2026-02-05T18:19:56.000Z"
   },
   {
-    "title": " The GeekBook X14 Pro is one of the lightest laptops I’ve tested, and it packs plenty of power at a reasonable price ",
-    "q": " the geekbook x14 pro is one of the lightest laptops i’ve tested, and it packs plenty of power at a reasonable price  windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b> The GeekBook X14 Pro is one of the lightest laptops I’ve tested, and it packs plenty of power at a reasonable price </b><br>The GeekBook X14 Pro is an ultra-lightweight 14-inch display laptop featuring Windows 11 Pro and a premium build with a stylish magnesium alloy outer. Inside, an impressive CPU and GPU offer a powerful combination, making it a great option…<br><a href=\"https://www.techradar.com/computing/geekom-geekbook-x14-pro-laptop-review\" target=\"_blank\">Read more</a>",
-    "link": "https://www.techradar.com/computing/geekom-geekbook-x14-pro-laptop-review",
+    "title": "I Bought the Galaxy Z TriFold for Over $3,000. Follow Along as I Test It (Live Updates)",
+    "q": "i bought the galaxy z trifold for over $3,000. follow along as i test it (live updates) windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>I Bought the Galaxy Z TriFold for Over $3,000. Follow Along as I Test It (Live Updates)</b><br>Samsung's buzzed-about new phone was tricky to get my hands on, but I'm excited to use it. Here are my ongoing observations.<br><a href=\"https://www.cnet.com/news-live/samsung-galaxy-z-trifold-ongoing-review/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.cnet.com/news-live/samsung-galaxy-z-trifold-ongoing-review/",
     "topic": "it",
-    "date": "2026-02-05T22:05:00.000Z"
+    "date": "2026-02-06T03:36:24.000Z"
   },
   {
     "title": " Yet another Windows update is wreaking havoc on gaming rigs worldwide — Nvidia recommends uninstalling Windows 11 KB5074109 January update to prevent framerate drops and artifacting ",
@@ -376,20 +376,28 @@
     "date": "2026-02-05T15:54:16.000Z"
   },
   {
+    "title": "After decades on Linux, FreeBSD finally gave me a reason to switch operating systems",
+    "q": "after decades on linux, freebsd finally gave me a reason to switch operating systems windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>After decades on Linux, FreeBSD finally gave me a reason to switch operating systems</b><br>FreeBSD isn't Linux, but if you didn't know any better, you'd swear it was.<br><a href=\"https://www.zdnet.com/article/freebsd-linux-review/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.zdnet.com/article/freebsd-linux-review/",
+    "topic": "it",
+    "date": "2026-02-06T02:36:12.000Z"
+  },
+  {
+    "title": "As of 2026, this is my favorite Linux distro of all time - and I've tested them all",
+    "q": "as of 2026, this is my favorite linux distro of all time - and i've tested them all windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>As of 2026, this is my favorite Linux distro of all time - and I've tested them all</b><br>I've used or tested just about every Linux distribution available, and this one is my go-to. Here's why.<br><a href=\"https://www.zdnet.com/article/elementaryos-linux-review/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.zdnet.com/article/elementaryos-linux-review/",
+    "topic": "it",
+    "date": "2026-02-06T02:00:44.000Z"
+  },
+  {
     "title": "I compared Ring and Blink security setups at home - this Amazon brand came out on top",
     "q": "i compared ring and blink security setups at home - this amazon brand came out on top windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
     "a": "<b>I compared Ring and Blink security setups at home - this Amazon brand came out on top</b><br>Both Ring and Blink dominate the security camera market, but they couldn't be more different. Here's my verdict after using both.<br><a href=\"https://www.zdnet.com/article/ring-vs-blink/\" target=\"_blank\">Read more</a>",
     "link": "https://www.zdnet.com/article/ring-vs-blink/",
     "topic": "it",
     "date": "2026-02-06T01:45:45.000Z"
-  },
-  {
-    "title": "Linux updates don't scare me anymore thanks to this immutable distro (and it's easy to use)",
-    "q": "linux updates don't scare me anymore thanks to this immutable distro (and it's easy to use) windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
-    "a": "<b>Linux updates don't scare me anymore thanks to this immutable distro (and it's easy to use)</b><br>ShaniOS maintains two separate environments. If an update - or anything - goes wrong with one environment, simply reboot and switch to the other.<br><a href=\"https://www.zdnet.com/article/shanios-linux-review/\" target=\"_blank\">Read more</a>",
-    "link": "https://www.zdnet.com/article/shanios-linux-review/",
-    "topic": "it",
-    "date": "2026-02-06T00:18:00.000Z"
   },
   {
     "title": " The studio behind one of Xbox's best new games plans to return to its iconic franchise, and just opened a second office — \"we're not done with it\" ",
@@ -462,6 +470,14 @@
     "link": "https://www.howtogeek.com/the-raspberry-pi-4-is-getting-a-new-design-thanks-to-ram-prices/",
     "topic": "it",
     "date": "2026-02-05T18:22:50.000Z"
+  },
+  {
+    "title": "Nvidia confirms that the Windows 11 January update causes frame drops and artifacting",
+    "q": "nvidia confirms that the windows 11 january update causes frame drops and artifacting windows linux mac osx macos apple microsoft update driver bug fix troubleshoot how to tutorial command terminal powershell network wifi gpu cpu security performance tips tricks",
+    "a": "<b>Nvidia confirms that the Windows 11 January update causes frame drops and artifacting</b><br>Even more problems with the Windows 11 January update.<br><a href=\"https://www.xda-developers.com/nvidia-confirms-windows-11-january-update-causes-frame-drops-artifacting/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.xda-developers.com/nvidia-confirms-windows-11-january-update-causes-frame-drops-artifacting/",
+    "topic": "it",
+    "date": "2026-02-06T05:31:54.000Z"
   },
   {
     "title": "You don't need the Steam Machine if you have these GPUs",
