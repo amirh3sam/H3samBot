@@ -40,6 +40,21 @@ function short(txt, max = 240) {
   return t.length <= max ? t : t.slice(0, max - 1) + "…";
 }
 
+// Terms actually worth indexing for one article: its own title and summary,
+// minus stop words. Shared boilerplate is deliberately left out -- a term
+// present in every document tells the ranker nothing.
+const STOP = new Set(("a an the and or but if then than that this these those is are was were be been being to of in on at by for with from as it its into about over after before under new news your you we our i s t can will just dont should now".split(" ")));
+
+function keywords(title, body) {
+  const words = `${title || ""} ${body || ""}`
+    .toLowerCase()
+    .replace(/<[^>]*>/g, " ")
+    .replace(/[^a-z0-9\s]/g, " ")
+    .split(/\s+/)
+    .filter((w) => w.length > 2 && w.length < 24 && !STOP.has(w));
+  return [...new Set(words)].slice(0, 60).join(" ");
+}
+
 const seen = new Set();
 const collected = [];
 
@@ -74,11 +89,9 @@ for (const result of fetched) {
       if (topic === "photo" && !isPhoto) continue;
       if (topic === "it"    && !isIT)    continue;
 
-      const hint = topic === "photo" ? PHOTO_HINTS : IT_HINTS;
-
       collected.push({
         title: it.title || "Article",
-        q: `${(it.title || "").toLowerCase()} ${hint}`,  // ← richer keywords for matching
+        q: keywords(it.title, it.contentSnippet || it.content),
         a: `<b>${it.title || "Article"}</b><br>${short(it.contentSnippet || it.content)}<br><a href="${it.link}" target="_blank">Read more</a>`,
         link: it.link || "",
         topic,
@@ -88,18 +101,31 @@ for (const result of fetched) {
   }
 }
 
-// keep any manual entries you marked with "manual": true
+// Curated evergreen entries live in their own file, so they survive a reset
+// of knowledge.json. Previously they were read back out of the very file this
+// script overwrites, which meant one bad run could lose them for good.
 let manual = [];
 try {
-  const raw = await fs.readFile("data/knowledge.json", "utf-8");
-  manual = JSON.parse(raw).filter(x => x.manual === true);
-} catch {}
+  manual = JSON.parse(await fs.readFile("data/manual.json", "utf-8"));
+  console.log(`Manual entries: ${manual.length}`);
+} catch (e) {
+  console.error("No data/manual.json:", e.message);
+  try {
+    const raw = await fs.readFile("data/knowledge.json", "utf-8");
+    manual = JSON.parse(raw).filter((x) => x.manual === true);
+  } catch {}
+}
 
 const final = [...manual, ...collected];
 // optional: cap size so file stays small
-const MAX = 120;
+const MAX = 160;
 const trimmed = final.slice(0, MAX);
 
 await fs.mkdir("data", { recursive: true });
 await fs.writeFile("data/knowledge.json", JSON.stringify(trimmed, null, 2), "utf-8");
 console.log(`✅ Wrote ${trimmed.length} items to data/knowledge.json`);
+
+// The work is done here, but keep-alive sockets from the feed requests can
+// hold the event loop open afterwards. That is what left the job running
+// until its timeout even on runs that had already written the file.
+process.exit(0);

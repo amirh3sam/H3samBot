@@ -1,0 +1,156 @@
+[
+  {
+    "manual": true,
+    "topic": "photo",
+    "title": "Shutter speed for sports and action",
+    "q": "shutter speed sports action freeze motion fast moving blurry subject football soccer kids pets birds panning",
+    "a": "Start at <b>1/1000s</b> and go faster if motion still smears. Rough guide:<br>• Walking: 1/250s<br>• Running, kids, pets: 1/500s<br>• Field sports, cycling: 1/1000s<br>• Birds in flight, motorsport: 1/2000s<br><br>Shutter speed is the only setting that freezes motion. To keep the exposure, open the aperture first (lowest f-number), then raise ISO. A slightly noisy sharp photo beats a clean blurry one.<br><br>For <b>panning</b>, do the opposite: 1/30s–1/60s and track the subject as you shoot, so it stays sharp and the background streaks."
+  },
+  {
+    "manual": true,
+    "topic": "photo",
+    "title": "Aperture and depth of field",
+    "q": "aperture f-stop fstop depth of field blur the background blurry blurred background bokeh separation sharp throughout f1.8 f2.8 f8 f16 how much in focus",
+    "a": "Aperture controls <b>how much is in focus</b> front to back.<br>• <b>f/1.4–f/2.8</b> — thin focus, blurred background. Portraits.<br>• <b>f/5.6–f/8</b> — most lenses are sharpest here. General use.<br>• <b>f/11–f/16</b> — deep focus. Landscapes.<br><br>Lower f-number also lets in more light, so wide apertures help indoors. Past f/16 diffraction starts softening the whole image, so stacking several f/8 shots beats one f/22 shot for maximum depth."
+  },
+  {
+    "manual": true,
+    "topic": "photo",
+    "title": "ISO and image noise",
+    "q": "iso noise grain grainy high iso low light what iso should i use auto iso",
+    "a": "ISO brightens the photo after the light is captured, and amplifies noise with it.<br>• <b>100–400</b> — daylight, cleanest files<br>• <b>800–3200</b> — indoors, overcast<br>• <b>6400+</b> — dim rooms, night<br><br>Modern cameras handle 3200 well, and full-frame bodies often look fine at 6400. Set <b>Auto ISO with a maximum</b> (say 6400) and a minimum shutter speed, and the camera protects your shutter speed for you.<br><br>Underexposing to avoid high ISO usually backfires: lifting shadows later produces more noise than just raising ISO."
+  },
+  {
+    "manual": true,
+    "topic": "photo",
+    "title": "The exposure triangle",
+    "q": "exposure triangle aperture shutter iso relationship manual mode how exposure works too dark too bright",
+    "a": "Three settings decide brightness, and each has a side effect:<br>• <b>Aperture</b> — light in, and depth of field<br>• <b>Shutter</b> — light in, and motion blur<br>• <b>ISO</b> — brightness after capture, and noise<br><br>Change one and you must compensate with another. A useful order: decide the setting your photo depends on first (shutter for action, aperture for portraits), set the second to taste, then let ISO absorb the difference."
+  },
+  {
+    "manual": true,
+    "topic": "photo",
+    "title": "Settings for portraits",
+    "q": "portrait settings people headshot blurry background skin flattering lens focal length eye focus",
+    "a": "Starting point: <b>f/1.8–f/2.8</b>, shutter <b>1/200s</b> or faster, ISO as low as the light allows.<br><br>• <b>Lens:</b> 85mm is the classic; 50mm works in tight rooms. Wide lenses up close distort faces.<br>• <b>Focus:</b> eye-detect AF if you have it, otherwise single point on the near eye.<br>• <b>Light:</b> turn the subject toward a window, slightly off-axis. Open shade outdoors beats direct sun, which causes squinting and harsh shadows.<br><br>At f/1.4 on a close subject, one eye can be sharp and the other soft. f/2.8 is safer for two people."
+  },
+  {
+    "manual": true,
+    "topic": "photo",
+    "title": "Settings for landscapes",
+    "q": "landscape landscapes settings aperture f8 f11 scenery mountains sharp front to back tripod golden hour polariser filter depth",
+    "a": "Starting point: <b>f/8–f/11</b>, <b>ISO 100</b>, shutter whatever that needs, on a tripod.<br><br>• Focus about a third into the scene, or on the nearest thing you need sharp.<br>• Shoot RAW: skies and shadows need the extra latitude.<br>• The hour after sunrise and before sunset gives low, warm, directional light. Midday is flat and contrasty.<br>• A polariser deepens skies and cuts reflections off water and leaves. It is the one filter that cannot be replicated in editing."
+  },
+  {
+    "manual": true,
+    "topic": "photo",
+    "title": "Why your photos come out blurry",
+    "q": "blurry photos photo picture image not sharp soft fuzzy camera shake handheld out of focus missed focus why unsharp smeared ruined",
+    "a": "Three different causes, each with its own fix:<br><br>• <b>Camera shake</b> — whole frame smeared. Keep shutter speed at least <b>1/focal length</b> (1/100s on a 100mm lens), or faster. Turn on stabilisation.<br>• <b>Subject motion</b> — background sharp, subject smeared. Raise shutter speed.<br>• <b>Missed focus</b> — something else in the frame is sharp. Use a single AF point on the subject, and AF-C for anything moving.<br><br>If nothing in the frame is sharp at any setting, clean the lens, then check you are not closer than the lens's minimum focus distance."
+  },
+  {
+    "manual": true,
+    "topic": "photo",
+    "title": "Shooting in low light",
+    "q": "low light night photography tips dark indoor evening concert party astrophotography stars handheld dim nighttime",
+    "a": "In order, before reaching for ISO:<br>1. Open the aperture fully.<br>2. Drop shutter speed to the slowest you can hold steady (about 1/focal length).<br>3. Brace against a wall, or use a tripod.<br>4. Then raise ISO.<br><br>For static scenes a tripod changes everything: ISO 100 at 5 seconds beats ISO 12800 handheld.<br><br>For stars, the <b>500 rule</b> gives your longest exposure before they trail: 500 ÷ focal length. On a 20mm lens that is about 25 seconds."
+  },
+  {
+    "manual": true,
+    "topic": "photo",
+    "title": "RAW or JPEG",
+    "q": "raw jpeg file format which should i shoot editing quality file size cr2 nef arw",
+    "a": "<b>RAW</b> keeps everything the sensor recorded. You can recover blown skies, fix white balance after the fact, and lift shadows with far less damage. Files are large and need processing.<br><br><b>JPEG</b> is processed and compressed in-camera. Smaller, ready to share, but most of that latitude is gone.<br><br>Shoot RAW when the light is difficult or the photos matter. Shoot JPEG for volume work you need to hand over quickly. <b>RAW+JPEG</b> gives both at the cost of card space."
+  },
+  {
+    "manual": true,
+    "topic": "photo",
+    "title": "White balance",
+    "q": "white balance colour color cast orange blue tint kelvin auto wb indoor tungsten fluorescent",
+    "a": "White balance tells the camera what colour the light is, so white comes out white.<br>• <b>Daylight</b> ≈ 5500K<br>• <b>Cloudy / shade</b> ≈ 6500–7500K, warmer<br>• <b>Tungsten bulbs</b> ≈ 3200K, very orange<br><br>Auto WB is good now and fine for most work. If photos look orange indoors, the camera is still on a daylight preset.<br><br>Shooting RAW means you can change this later at no cost, which is the strongest everyday argument for RAW."
+  },
+  {
+    "manual": true,
+    "topic": "photo",
+    "title": "Autofocus modes",
+    "q": "autofocus af-s af-c single continuous servo tracking focus mode moving subject back button focus",
+    "a": "• <b>AF-S / One Shot</b> — locks once. For still subjects.<br>• <b>AF-C / AI Servo</b> — keeps adjusting. For anything moving.<br>• <b>Eye / subject detection</b> — use it when you have it; it is better than you at holding an eye.<br><br>Area matters as much as mode: a single point gives you control, wide-area lets the camera choose and it often chooses the background.<br><br><b>Back-button focus</b> moves focus onto a rear button so the shutter only takes the picture. Focus once, recompose freely, shoot repeatedly."
+  },
+  {
+    "manual": true,
+    "topic": "photo",
+    "title": "Which focal length to use",
+    "q": "focal length lens mm wide angle telephoto 24mm 50mm 85mm 200mm zoom prime which lens",
+    "a": "• <b>16–24mm</b> — landscapes, interiors, astro. Exaggerates distance; unkind to faces up close.<br>• <b>35mm</b> — street and documentary. Close to how a scene feels.<br>• <b>50mm</b> — everyday. Cheap, fast, sharp.<br>• <b>85–135mm</b> — portraits. Flattering compression, easy background separation.<br>• <b>200mm+</b> — sports and wildlife.<br><br>On an APS-C body multiply by about 1.5 for the equivalent view: a 50mm behaves like a 75mm."
+  },
+  {
+    "manual": true,
+    "topic": "it",
+    "title": "Fix high CPU usage on Windows",
+    "q": "high cpu usage windows 100 percent slow fan loud task manager process hogging computer",
+    "a": "1. <b>Ctrl+Shift+Esc</b> → Task Manager → <b>Processes</b>, sort by CPU. Note the top process.<br>2. Common culprits: <i>Windows Modules Installer</i> and <i>Microsoft Compatibility Telemetry</i> (both settle after an update finishes), <i>Antimalware Service Executable</i> (a scan in progress), or a browser tab.<br>3. Let Windows Update finish completely, then restart. A lot of mystery CPU load is a half-finished update.<br>4. Still pegged: <b>Settings → Apps → Startup</b> and disable what you do not need.<br>5. Check temperatures. A machine throttling from dust and heat feels identical to one that is busy."
+  },
+  {
+    "manual": true,
+    "topic": "it",
+    "title": "Speed up a slow boot",
+    "q": "slow boot startup takes forever windows login slow starting up computer",
+    "a": "1. <b>Task Manager → Startup apps</b>, sort by <i>Startup impact</i>, disable everything non-essential. This is usually the whole fix.<br>2. Check the drive type: <b>Task Manager → Performance → Disk</b>. If it says HDD, moving Windows to an SSD is the single biggest upgrade available, worth more than any other change.<br>3. <b>Settings → System → Recovery</b> if Windows itself is misbehaving.<br>4. Turn off Fast Startup (<i>Control Panel → Power Options → Choose what the power buttons do</i>) if boots are inconsistent — it sometimes causes stranger problems than it solves."
+  },
+  {
+    "manual": true,
+    "topic": "it",
+    "title": "Wi-Fi keeps dropping or will not connect",
+    "q": "wifi dropping disconnect no internet network keeps cutting out wireless unstable connection reset",
+    "a": "Work outward from the machine:<br>1. Other devices affected too? Then it is the router, not the PC. Restart it and wait two full minutes.<br>2. <b>Device Manager → Network adapters</b> → your Wi-Fi card → Properties → <b>Power Management</b>, untick <i>Allow the computer to turn off this device</i>. This single setting causes a lot of random drops on laptops.<br>3. Update the adapter driver from the laptop maker's site, not Windows Update.<br>4. Reset the network stack from an admin prompt:<br><code>netsh winsock reset</code><br><code>netsh int ip reset</code><br><code>ipconfig /flushdns</code><br>then reboot.<br>5. Try the 5GHz band — faster and far less congested, though shorter range."
+  },
+  {
+    "manual": true,
+    "topic": "it",
+    "title": "Blue screen crashes (BSOD)",
+    "q": "blue screen bsod crash stop code windows restart random memory management driver",
+    "a": "Write down the <b>stop code</b> — it narrows things immediately.<br>• <i>MEMORY_MANAGEMENT</i>, <i>IRQL_NOT_LESS_OR_EQUAL</i> → usually RAM or a driver<br>• <i>CRITICAL_PROCESS_DIED</i> → system files<br>• <i>VIDEO_TDR_FAILURE</i> → graphics driver<br><br>Then:<br>1. Did it start after new hardware or a driver? Roll that back first.<br>2. Test RAM: run <b>Windows Memory Diagnostic</b> (type mdsched).<br>3. Repair system files from an admin prompt:<br><code>sfc /scannow</code><br><code>DISM /Online /Cleanup-Image /RestoreHealth</code><br>4. Repeated crashes with no pattern, on an older machine, often mean a failing drive or PSU."
+  },
+  {
+    "manual": true,
+    "topic": "it",
+    "title": "Free up disk space",
+    "q": "disk full no space c drive storage full clean up delete temp files windows",
+    "a": "1. <b>Settings → System → Storage</b> shows what is using the space.<br>2. Turn on <b>Storage Sense</b>, or run <b>Disk Cleanup</b> → <i>Clean up system files</i>. After a major Windows update this alone can return 20GB+ by clearing <i>Previous Windows installation</i>.<br>3. Empty the Recycle Bin and your Downloads folder.<br>4. <b>Settings → Apps</b>, sort by size, remove what you do not use.<br>5. To find the real hogs, WinDirStat or WizTree map the drive visually and usually reveal one forgotten folder.<br><br>Keep at least 10–15% of the drive free; Windows slows noticeably when it runs out of room to work."
+  },
+  {
+    "manual": true,
+    "topic": "it",
+    "title": "Laptop overheating and loud fans",
+    "q": "laptop overheating hot fan loud noisy thermal throttling temperature cooling",
+    "a": "1. Check what is actually running first — see the high CPU guidance.<br>2. Dust is the usual cause. Blow out the vents with compressed air, holding the fan still so it does not spin up and generate current.<br>3. Use it on a hard surface. Beds and laps block the intakes underneath.<br>4. <b>Settings → System → Power</b>, set <i>Balanced</i> rather than <i>Best performance</i>.<br>5. Monitor temperatures with HWMonitor. Sustained 90°C+ under load means throttling.<br>6. On a machine more than three or four years old, replacing the thermal paste often drops temperatures 10–15°C."
+  },
+  {
+    "manual": true,
+    "topic": "it",
+    "title": "Browser running slow",
+    "q": "browser slow chrome edge firefox lagging memory ram tabs freezing web pages",
+    "a": "1. <b>Shift+Esc</b> in Chrome or Edge opens the browser's own task manager — it names the tab or extension eating the memory.<br>2. Disable extensions one at a time. Ad blockers with huge filter lists and shopping extensions are frequent offenders.<br>3. Clear the cache: <b>Ctrl+Shift+Delete</b> → cached images and files.<br>4. Confirm hardware acceleration is on in settings, unless your GPU driver is unstable, in which case turn it off.<br>5. 30+ open tabs will slow any browser on 8GB of RAM. Use a tab-suspender, or bookmark and close."
+  },
+  {
+    "manual": true,
+    "topic": "it",
+    "title": "Recover a PC that will not boot",
+    "q": "wont boot not starting black screen windows recovery safe mode startup repair bootloop",
+    "a": "1. Force Windows into recovery: power on, and as soon as the logo appears hold the power button to shut down. Do this three times and it boots into <b>Automatic Repair</b>.<br>2. From there: <b>Troubleshoot → Advanced options → Startup Repair</b>.<br>3. If that fails, <b>Safe Mode</b> (Startup Settings → F4). Booting there points at a driver or startup program rather than hardware.<br>4. <b>System Restore</b> to a point before the problem is the least destructive real fix.<br>5. Command Prompt, to rebuild the boot record:<br><code>bootrec /fixmbr</code><br><code>bootrec /fixboot</code><br><code>bootrec /rebuildbcd</code><br><br>Black screen with no logo at all is usually hardware: reseat the RAM and check the monitor cable."
+  },
+  {
+    "manual": true,
+    "topic": "it",
+    "title": "Back up your files properly",
+    "q": "backup back up backing up my files file data loss external drive cloud onedrive 3-2-1 restore recover protect archive safe copy",
+    "a": "The <b>3-2-1 rule</b>: three copies of anything you care about, on two kinds of media, with one off-site.<br><br>In practice: the working copy on your machine, an external drive at home, and a cloud copy (OneDrive, Backblaze, iCloud).<br><br>• Windows <b>File History</b> handles the external drive automatically.<br>• Sync is not backup. If a file is deleted or encrypted, sync faithfully copies that everywhere. Backups with version history survive it; plain sync does not.<br>• Test a restore once. An untested backup is a guess, and the moment you need it is the wrong time to find out."
+  },
+  {
+    "manual": true,
+    "topic": "it",
+    "title": "Transfer photos from camera to computer",
+    "q": "transfer photos camera computer import sd card reader workflow organise lightroom copy",
+    "a": "Use a <b>card reader</b> rather than plugging in the camera — it is faster and does not drain the battery.<br><br>A workflow that holds up:<br>1. Copy the whole card to a dated folder (<code>2026-10-12 Shoot Name</code>). Copy, do not move.<br>2. Verify the photos opened and look right.<br>3. Back up that folder <i>before</i> you format the card.<br>4. Format the card <b>in the camera</b>, not on the computer. It rebuilds the file system the camera expects and prevents a lot of corruption.<br><br>Never format until the files exist in two places. That is the moment most photos are lost."
+  }
+]

@@ -29,7 +29,22 @@ addMsg('bot', `<b>H3samBot</b> ready. Ask me about camera settings, lighting, le
 <small class="hint">Try: “best shutter for sports” or “fix high CPU on Windows”.</small>`);
 
 // ---- NLP utils ----
-function tokenize(t){ return (t||"").toLowerCase().replace(/[^a-z0-9\s]/g,' ').split(/\s+/).filter(Boolean); }
+// "it" is deliberately NOT a stop word here: IT support is half this bot's job.
+const STOP_WORDS = new Set("a an the and or but if then than that this these those is are was were am be been being do does did to of in on at by for with from as into about over after before under my your you we our us me i how what when where which who why can could will would should too very really get got make makes need want".split(" "));
+// Crude singular folding so "photos" and "photo" are the same term. It does
+// not have to be linguistically right, only applied identically to documents
+// and queries, which is what makes the match work.
+function stem(w){
+  if (w.length > 4 && w.endsWith("ies")) return w.slice(0, -3) + "y";
+  if (w.length > 4 && (w.endsWith("ses") || w.endsWith("xes") || w.endsWith("ches") || w.endsWith("shes"))) return w.slice(0, -2);
+  if (w.length > 3 && w.endsWith("s") && !w.endsWith("ss") && !w.endsWith("us")) return w.slice(0, -1);
+  return w;
+}
+function tokenize(t){
+  return (t||"").toLowerCase().replace(/[^a-z0-9\s]/g,' ').split(/\s+/)
+    .filter(w => w && !STOP_WORDS.has(w))
+    .map(stem);
+}
 function tfidfVectors(docs){
   const vocab=new Map();
   const tfs=docs.map(tokens=>{
@@ -56,7 +71,10 @@ async function loadKBAndIndex(){
     if(!res.ok){ setStatus("fetch failed: " + res.status); return; }
     KB = await res.json();
     setStatus("knowledge loaded: " + KB.length + " items");
-    const docs = KB.map(x => tokenize((x.q||'') + ' ' + (x.a||'')));
+    // `q` is the curated keyword list, `a` is prose written for a reader.
+    // Counting them equally let stray words in a long answer outrank an
+    // entry's own keywords, so weight q more heavily.
+    const docs = KB.map(x => tokenize(((x.q||'') + ' ').repeat(3) + (x.a||'')));
     pre = tfidfVectors(docs);
     setStatus("index built");
   }catch(e){
@@ -89,19 +107,19 @@ const isPhoto = photoKW.test(ql);
 const isTech  = techKW.test(ql);
 const wantsNews = /(news|latest|new|updates?|trending|recent)\b/.test(ql);
 
+// A keyword whitelist used to decide this, and it turned away plenty of
+// questions the bot can answer -- "free up disk space", "laptop too hot" and
+// "how do i back up my files" contain no listed word and were refused
+// outright. Let the knowledge base decide instead: search it, and only
+// apologise when nothing in it is a real match.
 let topic = null;
-
-// If user mentions both “it” and “news”, handle gracefully
 if (isPhoto) topic = "photo";
 else if (isTech || /\bit\b/.test(ql)) topic = "it";
-else if (wantsNews) topic = "it"; // default news → tech
-else {
-  return "🤖 Sorry, I only help with photography 📸 and IT/tech 💻 questions. Try: “best settings for portraits” or “fix Wi-Fi on Windows”.";
-}
 
 // --- “News” shortcut: show latest 3 ---
 if (wantsNews) {
-  const items = KB.filter(it => !it.topic || it.topic === topic);
+  const newsTopic = topic || "it";
+  const items = KB.filter(it => !it.topic || it.topic === newsTopic);
   items.sort((a,b) => new Date(b.date || 0) - new Date(a.date || 0));
   const picks = items.slice(0, 3);
   if (picks.length === 0) return "No recent updates yet — check back later!";
@@ -113,19 +131,25 @@ if (wantsNews) {
 
 
   const idxs = [];
-  KB.forEach((item,i)=>{ if(!item.topic || item.topic === topic) idxs.push(i); });
+  KB.forEach((item,i)=>{ if(!topic || !item.topic || item.topic === topic) idxs.push(i); });
 
   // query vector
   const m=new Map(); tokenize(q).forEach(w=>m.set(w,(m.get(w)||0)+1));
   const vq = new Map(); for(const [w,f] of m) vq.set(w, f*(pre.idf.get(w)||0));
 
   // score subset
-  const scored = idxs.map(i=>({ i, s: cosine(vq, pre.vecs[i]) }))
+  // A how-to question deserves the written guide, not whatever headline
+  // happens to share a word with it. Explicit news requests took the
+  // shortcut above and never reach this.
+  const scored = idxs.map(i=>({
+                       i,
+                       s: cosine(vq, pre.vecs[i]) * (KB[i].manual ? 1.25 : 1)
+                     }))
                      .sort((a,b)=>b.s-a.s);
 
   const picks = scored.filter(x=>x.s>=0.02).slice(0,3);
   if(picks.length===0){
-    return "Hmm 🤔 I couldn’t find anything for that. Try being more specific — like “best mirrorless camera 2025” or “fix Wi-Fi on Windows 11”.";
+    return "Hmm 🤔 nothing in my notes covers that. I know photography 📸 and IT/tech 💻 — try “best shutter speed for sports”, “fix high CPU on Windows”, or “latest camera news”.";
   }
 
   const cards = picks.map(p=>{

@@ -82,29 +82,54 @@ The practical consequence: it is very good when your question shares vocabulary 
 | [`index.html`](index.html) | The page and the chat layout |
 | [`bot.js`](bot.js) | Scoring, matching and rendering the replies |
 | [`style.css`](style.css) | The look |
-| [`data/knowledge.json`](data/knowledge.json) | Everything the bot knows |
+| [`data/manual.json`](data/manual.json) | The 22 curated guides, the source of truth |
+| [`data/knowledge.json`](data/knowledge.json) | Curated guides plus fetched news, rebuilt each run |
+| [`scripts/test-retrieval.mjs`](scripts/test-retrieval.mjs) | Checks real questions reach the right entry |
 | [`scripts/fetch.js`](scripts/fetch.js) | Rebuilds the knowledge base from RSS feeds |
 
 ## Teaching it something new
 
-Everything the bot knows lives in [`data/knowledge.json`](data/knowledge.json). Add an object to the array and reload the page.
+The knowledge base has two halves, and they are kept in different files on purpose.
+
+**Curated answers** live in [`data/manual.json`](data/manual.json). These are the written guides, 22 of them, covering the questions people actually arrive with: shutter speed for sports, why photos come out blurry, high CPU on Windows, Wi-Fi that keeps dropping. They never expire, so they are the source of truth and are merged into the knowledge base on every refresh.
+
+**News** is pulled automatically from RSS and rewritten each run. Anything you put only in `data/knowledge.json` is overwritten, which is why curated entries have their own file.
+
+To add a guide, append an object to `data/manual.json`:
 
 ```json
 {
+  "manual": true,
+  "topic": "photo",
   "title": "Shutter speed for sports",
   "q": "sports shutter speed freeze motion fast action blurry football",
-  "a": "Start at <b>1/1000s</b> and raise it if motion still blurs. Open the aperture and raise ISO to keep the exposure."
+  "a": "Start at <b>1/1000s</b> and raise it if motion still blurs."
 }
 ```
 
 | Field | What it is for |
 |---|---|
-| `title` | A short heading, shown with the answer |
-| `q` | The words someone might use when asking. This is what gets matched, so write generously |
-| `a` | The answer. HTML is allowed, so `<b>`, `<br>` and links all work |
+| `manual` | Marks it curated, so it survives every refresh |
+| `topic` | `photo` or `it` |
+| `title` | Shown as the heading of the answer |
+| `q` | The words someone might ask with. This is what gets matched |
+| `a` | The answer. HTML is allowed |
 
-> [!IMPORTANT]
-> `q` is the field that decides whether your entry is ever found. Put the synonyms in: if the entry is about a blurry photo, include *blurry*, *soft*, *shake*, *motion* and *sharp*. Entries are missed far more often for thin keywords than for bad answers.
+> [!TIP]
+> `q` decides whether your entry is ever found, and it counts for three times as much as the answer text when matching. Write the words a person would actually type, synonyms included. Entries are missed far more often for thin keywords than for bad answers.
+
+After editing, check that real questions still reach the right entry:
+
+```bash
+npm test
+```
+
+```
+Knowledge base: 83 entries (22 curated)
+Retrieval: 22/22 questions reached the intended entry
+```
+
+The test lifts the scoring code out of `bot.js` as it runs, so it cannot pass while the bot behaves differently. Add your own question to the `CASES` list in [`scripts/test-retrieval.mjs`](scripts/test-retrieval.mjs).
 
 ## The automatic updates
 
