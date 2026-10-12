@@ -2,7 +2,9 @@
 import fs from "fs/promises";
 import Parser from "rss-parser";
 
-const parser = new Parser();
+// 15s per feed. Without a timeout a host that accepts the connection
+// but never answers hangs the whole job, which is what happened.
+const parser = new Parser({ timeout: 15000 });
 
 // -----------------------------
 // 🌐 Feeds to fetch & learn from
@@ -15,7 +17,6 @@ const SOURCES = [
   { url: "https://www.digitalcameraworld.com/feeds/all", topic: "photo" },
   { url: "https://www.slrlounge.com/feed/", topic: "photo" },
   { url: "https://iso1200.com/feeds/posts/default", topic: "photo" },
-  { url: "https://photofocus.com/feed/", topic: "photo" },
 
   // --- Tech & IT ---
   { url: "https://www.theverge.com/rss/index.xml", topic: "it" },
@@ -42,9 +43,23 @@ function short(txt, max = 240) {
 const seen = new Set();
 const collected = [];
 
-for (const { url, topic } of SOURCES) {
-  try {
-    const feed = await parser.parseURL(url);
+const fetched = await Promise.allSettled(
+  SOURCES.map(({ url, topic }) =>
+    parser.parseURL(url).then((feed) => ({ url, topic, feed }))
+  )
+);
+
+console.log(
+  `Feeds: ${fetched.filter((r) => r.status === "fulfilled").length}/${SOURCES.length} ok`
+);
+
+for (const result of fetched) {
+  if (result.status === "rejected") {
+    console.error("Feed error:", result.reason?.message || result.reason);
+    continue;
+  }
+  {
+    const { topic, feed } = result.value;
     const items = (feed.items || []).slice(0, 10);
     for (const it of items) {
       const key = (it.link || it.title || "").toLowerCase();
@@ -70,8 +85,6 @@ for (const { url, topic } of SOURCES) {
         date: it.isoDate || it.pubDate || ""
       });
     }
-  } catch (e) {
-    console.error("Feed error:", url, e.message);
   }
 }
 
