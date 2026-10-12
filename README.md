@@ -3,6 +3,7 @@
 </p>
 
 <p align="center">
+  <a href="https://amirh3sam.github.io/H3samBot/"><img alt="Live demo" src="https://img.shields.io/badge/demo-live-3fe0c5?style=flat-square&labelColor=0a0e14"></a>
   <img alt="No API key" src="https://img.shields.io/badge/API%20key-none-3fe0c5?style=flat-square&labelColor=0a0e14">
   <img alt="No server" src="https://img.shields.io/badge/server-none-3fe0c5?style=flat-square&labelColor=0a0e14">
   <img alt="Vanilla JavaScript" src="https://img.shields.io/badge/vanilla-JavaScript-a98bff?style=flat-square&labelColor=0a0e14">
@@ -12,7 +13,8 @@
 </p>
 
 <p align="center">
-  <a href="#quick-start"><b>Quick start</b></a> ·
+  <a href="https://amirh3sam.github.io/H3samBot/"><b>Try it live</b></a> ·
+  <a href="#quick-start">Quick start</a> ·
   <a href="#how-it-finds-an-answer">How it works</a> ·
   <a href="#teaching-it-something-new">Teach it</a> ·
   <a href="#the-automatic-updates">Auto updates</a> ·
@@ -30,7 +32,9 @@ H3samBot answers questions about **photography and IT support** out of a knowled
 
 ## Quick start
 
-Download or clone the repository and open `index.html`:
+It is already running at **[amirh3sam.github.io/H3samBot](https://amirh3sam.github.io/H3samBot/)**. Ask it something and watch the status line underneath build the index.
+
+To run your own copy, download or clone the repository and open `index.html`:
 
 ```bash
 git clone https://github.com/amirh3sam/H3samBot.git
@@ -47,9 +51,9 @@ fix high CPU on Windows
 ```
 
 <details>
-<summary><b>Publishing it to GitHub Pages</b></summary>
+<summary><b>Publishing your own copy to GitHub Pages</b></summary>
 
-Because it is static, any file host will serve it.
+This repository is already published that way. Because it is static, any file host will serve it.
 
 1. Push the files to a repository.
 2. Open **Settings → Pages**.
