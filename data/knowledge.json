@@ -226,9 +226,9 @@
     "date": "2026-10-12T20:16:29.000Z"
   },
   {
-    "title": "We tested the iPhone 18 Pro’s Pro controls: manual shutter speed means noisier low-light shots",
-    "q": "tested iphone pro controls manual shutter speed means noisier low light shots switching exposure cuts apple multi frame image stacking out pipeline entirely trade off launch materials never mention",
-    "a": "<b>We tested the iPhone 18 Pro’s Pro controls: manual shutter speed means noisier low-light shots</b><br>Switching to manual exposure on the iPhone 18 Pro cuts Apple's multi-frame image stacking out of the pipeline entirely, a trade-off the launch materials never mention.<br><a href=\"https://www.dpreview.com/articles/iphone-18-pro-manual-shutter-speed-noisier-photos/\" target=\"_blank\">Read more</a>",
+    "title": "The iPhone 18 Pro stops stacking frames when you set shutter speed manually, and it shows in low light",
+    "q": "iphone pro stops stacking frames when set shutter speed manually shows low light switching manual exposure cuts apple multi frame image out pipeline entirely trade off launch materials never mention",
+    "a": "<b>The iPhone 18 Pro stops stacking frames when you set shutter speed manually, and it shows in low light</b><br>Switching to manual exposure on the iPhone 18 Pro cuts Apple's multi-frame image stacking out of the pipeline entirely, a trade-off the launch materials never mention.<br><a href=\"https://www.dpreview.com/articles/iphone-18-pro-manual-shutter-speed-noisier-photos/\" target=\"_blank\">Read more</a>",
     "link": "https://www.dpreview.com/articles/iphone-18-pro-manual-shutter-speed-noisier-photos/",
     "topic": "photo",
     "date": "2026-10-12T18:55:05.000Z"
@@ -482,20 +482,20 @@
     "date": "2026-10-12T13:00:00.000Z"
   },
   {
+    "title": " 'People aren’t perfect, and everyone knows it': Security experts still see humans as the biggest threat to their business ",
+    "q": "people aren perfect everyone knows security experts still see humans biggest threat their business professionals state colleagues challenge they face human error named most significant attack vector",
+    "a": "<b> 'People aren’t perfect, and everyone knows it': Security experts still see humans as the biggest threat to their business </b><br>Security professionals state that their colleagues are the biggest challenge that they face, with human error named as the most significant attack vector<br><a href=\"https://www.techradar.com/pro/security/people-arent-perfect-and-everyone-knows-it-security-experts-still-see-humans-as-the-biggest-threat-to-their-business\" target=\"_blank\">Read more</a>",
+    "link": "https://www.techradar.com/pro/security/people-arent-perfect-and-everyone-knows-it-security-experts-still-see-humans-as-the-biggest-threat-to-their-business",
+    "topic": "it",
+    "date": "2026-10-13T02:05:00.000Z"
+  },
+  {
     "title": " Microsoft CEO Satya Nadella wants your PC to become 'an infinite software factory' in final blow to the app store concept — but I'm afraid businesses won't bite the AI apple ",
     "q": "microsoft ceo satya nadella wants become infinite software factory final blow app store concept afraid businesses won bite apple every employee building apps copilot tech leaders worried vibe coded tools don expect hand keys",
     "a": "<b> Microsoft CEO Satya Nadella wants your PC to become 'an infinite software factory' in final blow to the app store concept — but I'm afraid businesses won't bite the AI apple </b><br>Microsoft wants every employee building apps with Copilot, but with 93% of tech leaders worried about vibe-coded tools, I don't expect IT to just hand over the keys.<br><a href=\"https://www.techradar.com/pro/satya-nadella-wants-your-pc-to-become-an-infinite-software-factory-in-final-blow-to-the-app-store-concept-but-im-afraid-businesses-wont-bite-the-ai-apple\" target=\"_blank\">Read more</a>",
     "link": "https://www.techradar.com/pro/satya-nadella-wants-your-pc-to-become-an-infinite-software-factory-in-final-blow-to-the-app-store-concept-but-im-afraid-businesses-wont-bite-the-ai-apple",
     "topic": "it",
     "date": "2026-10-12T23:20:00.000Z"
-  },
-  {
-    "title": " The Apple Upgrade program is great for consumers and Apple, but bad for carriers like Verizon and AT&T — here's why ",
-    "q": "apple upgrade program great consumers bad carriers like verizon here why original iphone transformed way operate next big power play",
-    "a": "<b> The Apple Upgrade program is great for consumers and Apple, but bad for carriers like Verizon and AT&T — here's why </b><br>The original iPhone transformed the way carriers like AT&T operate — and the Apple Upgrade program is Apple's next big power play.<br><a href=\"https://www.techradar.com/phones/iphone/19-years-ago-the-iphone-broke-the-cell-carrier-business-and-built-what-we-have-today-and-apples-new-upgrade-program-could-break-it-all-over-again\" target=\"_blank\">Read more</a>",
-    "link": "https://www.techradar.com/phones/iphone/19-years-ago-the-iphone-broke-the-cell-carrier-business-and-built-what-we-have-today-and-apples-new-upgrade-program-could-break-it-all-over-again",
-    "topic": "it",
-    "date": "2026-10-12T20:00:00.000Z"
   },
   {
     "title": "Microsoft President Says AI Has Fewer Regulations Than Milk. So Now What?",
@@ -610,6 +610,14 @@
     "date": "2026-10-12T11:58:33.000Z"
   },
   {
+    "title": "Don't recycle that CRT yet—these 4 uses beat any flat panel for retro games and TV",
+    "q": "don recycle crt yet uses beat any flat panel retro games desk side time machine delivering smoother anime breaks crisp music videos through thick glass nostalgia",
+    "a": "<b>Don't recycle that CRT yet—these 4 uses beat any flat panel for retro games and TV</b><br>A desk-side time machine delivering smoother anime breaks and crisp 4:3 music videos through thick glass and nostalgia.<br><a href=\"https://www.howtogeek.com/dont-recycle-that-crt-yet-4-uses-beat-any-flat-panel-for-retro-games-tv/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.howtogeek.com/dont-recycle-that-crt-yet-4-uses-beat-any-flat-panel-for-retro-games-tv/",
+    "topic": "it",
+    "date": "2026-10-13T00:00:14.000Z"
+  },
+  {
     "title": "I turned Claude prompts into Windows taskbar icons that do the work for me without opening Claude",
     "q": "turned claude prompts windows taskbar icons work without opening how most used buttons read clipboard hand back answer",
     "a": "<b>I turned Claude prompts into Windows taskbar icons that do the work for me without opening Claude</b><br>How I turned my most-used Claude prompts into taskbar buttons that read my clipboard and hand back the answer.<br><a href=\"https://www.howtogeek.com/i-turned-claude-prompts-into-windows-taskbar-icons-that-do-the-work-for-me/\" target=\"_blank\">Read more</a>",
@@ -618,12 +626,20 @@
     "date": "2026-10-12T20:00:14.000Z"
   },
   {
-    "title": "Apple's Magic Keyboard for the iPad Air is nearly $70 off on Amazon",
-    "q": "apple magic keyboard ipad air nearly off amazon magnetically connects models",
-    "a": "<b>Apple's Magic Keyboard for the iPad Air is nearly $70 off on Amazon</b><br>It magnetically connects to the M2, M3, and M4 models<br><a href=\"https://www.howtogeek.com/apples-magic-keyboard-for-the-ipad-air-13-inch-is-nearly-70-off-on-amazon/\" target=\"_blank\">Read more</a>",
-    "link": "https://www.howtogeek.com/apples-magic-keyboard-for-the-ipad-air-13-inch-is-nearly-70-off-on-amazon/",
+    "title": "I unlocked Windows 11's hidden performance power plan, but I wouldn't enable it on every PC",
+    "q": "unlocked windows hidden performance power plan wouldn enable every not lot way upside still significant",
+    "a": "<b>I unlocked Windows 11's hidden performance power plan, but I wouldn't enable it on every PC</b><br>Not a lot in the way of upside, but still significant<br><a href=\"https://www.xda-developers.com/this-hidden-windows-11-power-plan-improved-my-games-performance/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.xda-developers.com/this-hidden-windows-11-power-plan-improved-my-games-performance/",
     "topic": "it",
-    "date": "2026-10-12T19:01:15.000Z"
+    "date": "2026-10-13T00:00:18.000Z"
+  },
+  {
+    "title": "Windows 11's Dev Drive isn't just for developers, and I moved my game library onto one",
+    "q": "windows dev drive isn developers moved game library onto one adios long load times",
+    "a": "<b>Windows 11's Dev Drive isn't just for developers, and I moved my game library onto one</b><br>Adios, long load times!<br><a href=\"https://www.xda-developers.com/windows-11s-dev-drive-isnt-just-for-developers-and-i-moved-my-game-library-onto-one/\" target=\"_blank\">Read more</a>",
+    "link": "https://www.xda-developers.com/windows-11s-dev-drive-isnt-just-for-developers-and-i-moved-my-game-library-onto-one/",
+    "topic": "it",
+    "date": "2026-10-13T00:00:17.000Z"
   },
   {
     "title": "Beastly 14-inch MacBook Pro with M5 Pro chip and 2TB storage gets a steep $600 price drop",
